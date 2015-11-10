@@ -24,7 +24,53 @@ body {
 /************************************************
 *  1. header
 *************************************************/
+header {
+	width: 100%;
+	max-width: 960px;
+	height: 350px;
+	margin: 0 auto;
+}
 
+.headImg {
+	width: 960px;
+	margin: 0 auto;
+	height: 285px;
+}
+
+nav {
+	width: 960px;
+	height: 65px;
+	margin: 0 auto;
+}
+
+.navLi {
+	float: left;
+	list-style-type: none;
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+	font-size: 18px;
+	margin: 15px auto;
+	color: #999;
+}
+
+.nav1 {
+	width: 164px;
+}
+
+.nav2 {
+	width: 222px;
+}
+
+.nav3,
+.nav4,
+.nav5 {
+	width: 190px;
+}
+
+.nvB {
+	border-right: solid 1px #ccc;
+}
 
 /************************************************
 *  2. Main
@@ -38,22 +84,26 @@ body {
 /**************************************
 *  3-1. Content1
 ***************************************/
-
+#mainV {
+	width: 960px;
+	height: 500px;
+}
 
 /**************************************
 *  3-2. Content2
 ***************************************/
-
+#connection {
+	width: 960px;
+	height: 400px;
+}
 
 /**************************************
 *  3-3. Content3
 ***************************************/
-
-
-/**************************************
-*  3-4. Content4
-***************************************/
-
+#links {
+	width: 960px;
+	height: 180px;
+}
 
 /**************************************
 *  3-X. PageTop
@@ -64,21 +114,21 @@ body {
 *  4. Footer
 *************************************************/
 footer {
-	width: 100%;
-	height: 50px;
+	width: 960px;
+	height: 70px;
 	margin: 0 auto;
 	background-color: #EEE;
 }
 
 small {
 	width: 960px;
-	height: 50px;
-	line-height: 50px;
+	height: 70px;
+	line-height: 70px;
 	text-align: center;
 	margin: 0 auto;
 }
 
 small p {
-	font-size: 12px;
+	font-size: 18px;
 	margin: 0 auto;
 }
