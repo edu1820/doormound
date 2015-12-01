@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/**/
+#company {
+	width: 960px;
+	height: 650px;
+	margin: 0 auto 20px;
+}
+
+.compTitle {
+	width: 960px;
+	margin: 40px auto 20px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.compTitle h2 {
+	font-size: 30px;
+	color: #555;
+	font-family: serif;
+	font-weight: bold;
+}
+
+.compCntnt {
+	width: 900px;
+	margin: 20px 60px 0 0;
+	border-left: solid 1px #BBB;
+}
+
+.compRow {
+	width: 900px;
+	height: 50px;
+	margin: 0 auto 3px;
+	font-family: serif;
+	font-weight: bold;
+	color: #666;
+}
+
+.compLeft {
+	width: 148px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #EEE;
+	font-size: 22px;
+	float: left;
+}
+
+.compRight {
+	width: 740px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	text-indent: 20px;
+	float: left;
+}
+
+.compRow2 {
+	width: 900px;
+	height: 300px;
+	margin: 0 auto 3px;
+	font-family: serif;
+	font-weight: bold;
+	color: #666;
+}
+
+.compLeft2 {
+	width: 148px;
+	height: 300px;
+	text-align: center;
+	background-color: #EEE;
+	font-size: 22px;
+	float: left;
+}
+
+.compLeft2 p {
+	margin-top: 10px;
+}
+
+.compRight2 {
+	width: 740px;
+	height: 300px;
+	font-size: 20px;
+	text-indent: 20px;
+	float: left;
+}
+
+.compRight2 li {
+	list-style-type: none;
+	margin-top: 10px;
+	height: 30px;
+}
