@@ -9,6 +9,7 @@ body {
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
+	background-color: #eee;
 }
 
 /*float解除*/
@@ -27,20 +28,41 @@ body {
 header {
 	width: 100%;
 	max-width: 960px;
-	height: 350px;
+	height: 130px;
 	margin: 0 auto;
 }
 
-.headImg {
-	width: 960px;
-	margin: 0 auto;
-	height: 285px;
+.logo {
+	width: 900px;
+	margin: 0 30px;
+	height: 80px;
+	padding-bottom: 10px;
+}
+
+.logoImg {
+	float: left;
+	height: 60px;
+	width: 250px;
+	margin-top: 10px;
+}
+
+.reservImg {
+	float: right;
+	height: 40px;
+	width: 400px;
+	margin-top: 30px;
 }
 
 nav {
 	width: 960px;
-	height: 65px;
+	height: 30px;
 	margin: 0 auto;
+}
+
+.navi {
+	width: 900px;
+	margin: 0 30px;
+	height: 30px;
 }
 
 .navi a {
@@ -49,75 +71,160 @@ nav {
 
 .hov:hover {
 	text-decoration: none;
-	background-color: #ccc;
-	color: #fff;
 }
 
 .navLi {
 	float: left;
 	list-style-type: none;
-	text-align: center;
-	height: 35px;
-	line-height: 35px;
-	font-size: 18px;
-	margin: 15px auto;
-	color: #999;
+	width: 148px;
+	height: 30px;
 }
 
-.nav1 {
-	width: 164px;
+.nrM {
+	margin-right: 2px;
 }
 
-.nav2 {
-	width: 222px;
+.nav6 {
+	float: left;
+	list-style-type: none;
+	width: 150px;
+	height: 30px;
 }
 
-.nav3,
-.nav4,
-.nav5 {
-	width: 190px;
-}
-
-.nvB {
-	border-right: solid 1px #ccc;
-}
-
-.focus {
-	background-color: #CCC;
-	color: #fff;
+hr {
+	width: 900px;
+	margin: 5px 30px 0;
 }
 
 /************************************************
 *  2. Main
 *************************************************/
 #wrapper {
-	width: 100%;
+	width: 960px;
+	height: 1270px;
+	margin: 30px auto 0;
+}
+
+#mainCntnt {
+	margin: 0 30px;
 	height: auto;
+	width: 900px;
+}
+
+/**************************************
+*  3-1-1. leftColumn 
+***************************************/
+.leftColumn {
+	width: 600px;
+	margin: 0 30px auto 0;
+	float: left;
+}
+
+/**************************************
+*  3-1. MainVisual
+***************************************/
+#mainV {
+	width: 598px;
+	height: 390px;
+	margin: 0 auto;
+    border: solid 1px #333;
+}
+
+.mainImg {
+	width: 598px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#main {
+    width: 598px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#thumbArea {
+    width: 578px;
+    padding: 10px 10px 5px 10px;
+    height: 75px;
+    line-height: 75px;
+    background-color: #000;
+}
+.thumb {
+    width: 139px;
+    height: 65px;
+    line-height: 65px;
+    opacity: 0.6;
+}
+.select {
+    border: solid #333 1px;
+    opacity: 1.0;
+}
+
+/**************************************
+*  3-2. Information
+***************************************/
+#info {
+	width: 600px;
+	height: 840px;
 	margin: 0 auto;
 }
 
-/**************************************
-*  3-1. Content1
-***************************************/
-#mainV {
-	width: 960px;
-	height: 500px;
+.infoTitle {
+	width: 600px;
+	height: 40px;
+	margin: 30px auto 0;
 }
 
-/**************************************
-*  3-2. Content2
-***************************************/
-#connection {
-	width: 960px;
+.news {
+	width: 600px;
 	height: 400px;
+	margin: 0 auto;
+}
+
+
+/**************************************
+*  3-1-2. RightColumn 
+***************************************/
+.rightColumn {
+	width: 270px;
+	margin: 0 auto;
+	float: left;
+	background-color: #ccc;
+	border-radius: 10px;
+}
+
+.rInfo {
+	width: 270px;
+	margin: 10px auto;
+	height: 40px;
+	font-size: 22px;
+	text-align: center;
+	color: #fff;
 }
 
 /**************************************
-*  3-3. Content3
+*  3-3. Twitter
 ***************************************/
-#links {
-	width: 960px;
-	height: 180px;
+#twitter {
+	width: 230px;
+	height: 450px;
+	margin: 0 20px;
+}
+
+/**************************************
+*  3-4. Banner
+***************************************/
+#banner {
+	width: 230px;
+	height: 570px;
+	margin: 60px 20px 0;
+}
+
+.bannerImg {
+	width: 230px;
+	height: 160px;
+	margin: 30px auto;
+
 }
 
 /**************************************
@@ -130,13 +237,30 @@ nav {
 *************************************************/
 footer {
 	width: 960px;
-	height: 70px;
+	height: 100px;
 	margin: 0 auto;
 	background-color: #EEE;
 }
 
+.fLink {
+	width: 900px;
+	margin: 0 30px;
+	height: 30px;
+}
+
+.fLink ul {
+	list-style-type: none;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.frB {
+	border-right: solid 2px #ccc;
+}
+
 small {
-	width: 960px;
+	width: 900px;
 	height: 70px;
 	line-height: 70px;
 	text-align: center;
@@ -144,6 +268,6 @@ small {
 }
 
 small p {
-	font-size: 18px;
+	font-size: 12px;
 	margin: 0 auto;
 }

@@ -4,51 +4,123 @@
 		<meta charset="UTF-8" />
   		<meta name="keywords" content="">
 		<!--title-->
-		<title></title>
+		<title>DMエンターテインメント</title>
 		<!--css-->
 		<link rel="stylesheet" type="text/css" href="css/reset.css" />
 		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<!--JavaScript-->
+		<script>
+			var imageArray = ["image/slide/mainV1.png","image/slide/mainV2.png",
+			        "image/slide/mainV3.png","image/slide/mainV4.png"];
+			var currentImage = 0;
+			var timerId = setInterval("changeImage()",2500);
+
+			function changeImage() {
+			    showImage(currentImage);
+			    currentImage++;
+			    if (currentImage == imageArray.length){
+			        currentImage = 0;
+			    }
+			}
+
+			function showImage(imageNo) {
+			    document.getElementById("main").src = imageArray[imageNo];
+
+			    var thumbImages = document.getElementsByClassName("thumb");
+
+			    for(var i=0; i<thumbImages.length; i++) {
+			        thumbImages[i].classList.remove("select");
+			    }
+			    thumbImages[imageNo].classList.add("select");
+			}
+		</script>
 	</head>
 	<body>
 		<!--▽header▽-->
 		<header id="header">
-			<div class="headImg">
-				<img src="image/header.png" alt="DoorMound 次世代をコネクトする零士ネクスト" />
+			<div class="logo clearfix">
+				<p class="logoImg"><img src="image/common/logo.png" alt="ロゴ"></p>
+				<p class="reservImg"><img src="image/common/reserv.png" alt="ご予約の方はこちら"></p>
 			</div>
 			<nav>
 				<ul class="clearfix navi">
-					<a href="#"><li class="navLi nav1 nvB focus">TOP</li></a>
-					<a href="Philosophy/index.html"><li class="navLi nav2 nvB">Philosophy</li></a>
-					<a href="Connect/index.html"><li class="navLi nav3 nvB">Connect</li></a>
-					<a href="Company/index.html"><li class="navLi nav4 nvB">Company</li></a>
-					<a href="Contact/index.html"><li class="navLi nav5">Contact</li></a>
+					<a href="member.html"><li class="navLi nrM"><img src="image/common/member.png" alt="メンバー" /></li></a>
+					<a href="live.html"><li class="navLi nrM"><img src="image/common/live.png" alt="ライブ紹介" /></li></a>
+					<a href="beginner.html"><li class="navLi nrM"><img src="image/common/beginner.png" alt="初めての方" /></li></a>
+					<a href="schedule.html"><li class="navLi nrM"><img src="image/common/schedule.png" alt="スケジュール" /></li></a>
+					<a href="access.html"><li class="navLi nrM"><img src="image/common/access.png" alt="アクセス・地図" /></li></a>
+					<a href="company.html"><li class="nav6"><img src="image/common/company.png" alt="運営会社" /></li></a>
 				</ul>
+				<hr/>
 			</nav>
 		</header>
 		<!--△header△-->
 
 		<!--▽main▽-->
 		<div id="wrapper">
-			<article>
-				<section id="mainV">
-					
-				</section>
+			<div id="mainCntnt" class="clearfix">
+				<article class="leftColumn">
+					<section id="mainV">
+						<p class="mainImg"><img src="image/slide/mainV1.png" id="main"></p>
+					    <div id="thumbArea">
+					        <img src="image/slide/mainSv1.png" class="thumb select" onclick="showImage(0)">
+					        <img src="image/slide/mainSv2.png" class="thumb" onclick="showImage(1)">
+					        <img src="image/slide/mainSv3.png" class="thumb" onclick="showImage(2)">
+					        <img src="image/slide/mainSv4.png" class="thumb" onclick="showImage(3)">
+					    </div>
+					</section>
+					<section id="info">
+						<p class="infoTitle"><img src="image/main/news.png" alt="新着情報"></p>
+						<iframe class="autoHeight" scrolling="auto" frameborder="0" src="news/diary14.cgi" id="NEWINFO" width="600px"></iframe>
+					</section>
+				</article>
 
-				<section id="connection">
-					
-				</section>
+				<article class="rightColumn">
+					<div class="rInfo">
+						<p class="rTitle">Information</p>
+					</div>
+					<section id="twitter">
+						<a class="twitter-timeline" 
+						href="https://twitter.com/xxTRIPLEKxx/chromejacks%E3%83%84%E3%82%A4%E3%83%BC%E3%83%88" 
+						data-widget-id="375852400008912898" width="230px" height="450px">
+						@xxTRIPLEKxx/chromejacks%E3%83%84%E3%82%A4%E3%83%BC%E3%83%88からのツイート</a>
+						<script>
+						!function(d,s,id){
+							var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+							if(!d.getElementById(id)){
+								js=d.createElement(s);
+								js.id=id;
+								js.src=p+"://platform.twitter.com/widgets.js";
+								fjs.parentNode.insertBefore(js,fjs);
+							}
+						}(document,"script","twitter-wjs");
+						</script>
+					</section>
 
-				<section id="links">
-					
-				</section>
-			</article>
+					<section id="banner">
+						<p class="bannerImg"><img src="image/main/side_banner.png" alt="サイドバナー" /></p>
+						<p class="bannerImg"><img src="image/main/side_banner.png" alt="サイドバナー" /></p>
+						<p class="bannerImg"><img src="image/main/side_banner.png" alt="サイドバナー" /></p>
+					</section>
+				</article>
+			</div>
 		</div>
 		<!--△main△-->
 		
 		<!--▽footer▽-->
 		<footer>
+			<div class="fLink">
+				<ul class="clearfix">
+					<li class="navLi frB">TOP</li>
+					<li class="navLi frB">ライブ紹介</li>
+					<li class="navLi frB">初めての方</li>
+					<li class="navLi frB">スケジュール</li>
+					<li class="navLi frB">アクセス・地図</li>
+					<li class="navLi">運営会社</li>
+				</ul>
+			</div>
 			<small>
-				<p>Copyright &copy; 2015 Door Mound All Rights Reserved.</p>
+				<p>Copyright &copy; 2016 TripleK All Rights Reserved.</p>
 			</small>
 		</footer>
 		<!--△footer△-->
