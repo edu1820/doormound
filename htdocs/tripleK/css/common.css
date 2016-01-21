@@ -1,15 +1,18 @@
 @charset "UTF-8";
 
 html {
-	height: 100%;
+	/*height: 100%;*/
 	width: 100%;
+	background-color: #edffff;
 }
 
 body {
 	width: 100%;
+	max-width: 960px;
 	height: 100%;
 	margin: 0 auto;
-	background-color: #eee;
+	background-color: #fff;
+	overflow-x: hidden;
 }
 
 /*float解除*/
@@ -80,6 +83,90 @@ nav {
 	height: 30px;
 }
 
+.mem {
+	background: url("../image/common/member1.png") no-repeat;
+}
+.mem a {
+	background: url("../image/common/member1.png") no-repeat;
+	width: 148px;
+	height: 30px;
+	text-indent: -9999px;
+	display: block;
+}
+.mem a:hover {
+	background: url("../image/common/member2.png");
+}
+
+.liv {
+	background: url("../image/common/live1.png") no-repeat;
+}
+.liv a {
+	background: url("../image/common/live1.png") no-repeat;
+	width: 148px;
+	height: 30px;
+	text-indent: -9999px;
+	display: block;
+}
+.liv a:hover {
+	background: url("../image/common/live2.png");
+}
+
+.beg {
+	background: url("../image/common/beginner1.png") no-repeat;
+}
+.beg a {
+	background: url("../image/common/beginner1.png") no-repeat;
+	width: 148px;
+	height: 30px;
+	text-indent: -9999px;
+	display: block;
+}
+.beg a:hover {
+	background: url("../image/common/beginner2.png");
+}
+
+.sch {
+	background: url("../image/common/schedule1.png") no-repeat;
+}
+.sch a {
+	background: url("../image/common/schedule1.png") no-repeat;
+	width: 148px;
+	height: 30px;
+	text-indent: -9999px;
+	display: block;
+}
+.sch a:hover {
+	background: url("../image/common/schedule2.png");
+}
+
+.acc {
+	background: url("../image/common/access1.png") no-repeat;
+}
+.acc a {
+	background: url("../image/common/access1.png") no-repeat;
+	width: 148px;
+	height: 30px;
+	text-indent: -9999px;
+	display: block;
+}
+.acc a:hover {
+	background: url("../image/common/access2.png");
+}
+
+.com {
+	background: url("../image/common/company1.png") no-repeat;
+}
+.com a {
+	background: url("../image/common/company1.png") no-repeat;
+	width: 150px;
+	height: 30px;
+	text-indent: -9999px;
+	display: block;
+}
+.com a:hover {
+	background: url("../image/common/company2.png");
+}
+
 .nrM {
 	margin-right: 2px;
 }
@@ -101,7 +188,7 @@ hr {
 *************************************************/
 #wrapper {
 	width: 960px;
-	height: 1270px;
+	height: 1200px;
 	margin: 30px auto 0;
 }
 
@@ -116,6 +203,7 @@ hr {
 ***************************************/
 .leftColumn {
 	width: 600px;
+	height: 1000px;
 	margin: 0 30px auto 0;
 	float: left;
 }
@@ -125,38 +213,41 @@ hr {
 ***************************************/
 #mainV {
 	width: 598px;
-	height: 390px;
+	height: 380px;
 	margin: 0 auto;
-    border: solid 1px #333;
+    border: solid 1px #ccc;
 }
 
 .mainImg {
 	width: 598px;
-    height: 300px;
+    height: 380px;
     margin: 0 auto;
 }
 
 #main {
     width: 598px;
-    height: 300px;
+    height: 380px;
     margin: 0 auto;
 }
 
 #thumbArea {
     width: 578px;
-    padding: 10px 10px 5px 10px;
+    padding: 12px 10px 5px 10px;
     height: 75px;
     line-height: 75px;
     background-color: #000;
 }
 .thumb {
-    width: 139px;
+    width: 137px;
     height: 65px;
     line-height: 65px;
     opacity: 0.6;
 }
+.smallImg {
+    margin-right: 4px;
+}
+
 .select {
-    border: solid #333 1px;
     opacity: 1.0;
 }
 
@@ -165,22 +256,89 @@ hr {
 ***************************************/
 #info {
 	width: 600px;
-	height: 840px;
+	height: 600px;
 	margin: 0 auto;
 }
 
 .infoTitle {
-	width: 600px;
-	height: 40px;
-	margin: 30px auto 0;
+	width: 590px;
+	border-left: solid 10px #ccc;
+	border-bottom: solid 2px #ccc;
+	height: 30px;
+	line-height: 30px;
+	font-size: 24px;
+	text-indent: 20px;
+	color: #666;
+	font-family: serif;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.infoTitle2 {
+	width: 590px;
+	border-left: solid 10px #ccc;
+	border-bottom: solid 2px #ccc;
+	height: 30px;
+	line-height: 30px;
+	font-size: 24px;
+	text-indent: 20px;
+	color: #666;
+	font-family: serif;
+	font-weight: bold;
 }
 
 .news {
 	width: 600px;
-	height: 400px;
+	height: 310px;
 	margin: 0 auto;
+	border: solid 1px #ccc;
+	margin-top: 10px;
 }
 
+.newsBox {
+	width: 600px;
+	height: 40px;
+	border-bottom: solid 1px #ccc;
+	background-color: #eee;
+}
+
+.newsTitle {
+	float: left;
+	width: 480px;
+	font-size: 20px;
+	height: 40px;
+	text-indent: 10px;
+	font-weight: bold;
+	color: red;
+	line-height: 40px;
+}
+
+.newsTitle2 {
+	float: left;
+	width: 480px;
+	font-size: 16px;
+	height: 40px;
+	text-indent: 10px;
+	font-weight: bold;
+	color: red;
+	line-height: 40px;
+}
+
+.newsDay {
+	width: 120px;
+	float: left;
+	text-indent: 30px;
+	font-size: 14px;
+	height: 40px;
+	margin-top: 20px;
+	font-weight: bold;
+	color: red;
+}
+
+.newsText {
+	padding-left: 10px;
+	font-size: 18px;
+}
 
 /**************************************
 *  3-1-2. RightColumn 
@@ -189,7 +347,7 @@ hr {
 	width: 270px;
 	margin: 0 auto;
 	float: left;
-	background-color: #ccc;
+	background-color: #eee;
 	border-radius: 10px;
 }
 
@@ -197,9 +355,16 @@ hr {
 	width: 270px;
 	margin: 10px auto;
 	height: 40px;
-	font-size: 22px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: cursive;
 	text-align: center;
-	color: #fff;
+	color: red;
+}
+
+.rhr {
+	width: 200px;
+	border: solid 0.5px #00ffff;
 }
 
 /**************************************
@@ -216,7 +381,7 @@ hr {
 ***************************************/
 #banner {
 	width: 230px;
-	height: 570px;
+	height: 530px;
 	margin: 60px 20px 0;
 }
 
@@ -225,6 +390,10 @@ hr {
 	height: 160px;
 	margin: 30px auto;
 
+}
+
+.liveImg {
+	margin-top: -2px;
 }
 
 /**************************************
@@ -239,7 +408,7 @@ footer {
 	width: 960px;
 	height: 100px;
 	margin: 0 auto;
-	background-color: #EEE;
+	/*background-color: #EEE;*/
 }
 
 .fLink {
@@ -253,6 +422,11 @@ footer {
 	height: 30px;
 	text-align: center;
 	line-height: 30px;
+}
+
+.navLi a {
+	color: #000;
+	text-decoration: none;
 }
 
 .frB {

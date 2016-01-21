@@ -1,0 +1,533 @@
+@charset "utf-8";
+
+
+
+body  {
+	font-family: 'メイリオ','ＭＳ Ｐゴシック',serif,sans-serif ;
+	font-size:14px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	color: #666666;
+}
+
+#header{
+margin:0px auto;
+padding:0px;
+width:1918px;
+height:281px;
+}
+
+
+#content{
+margin:0px auto;
+padding:0px;
+width:1100px;
+}
+
+#side{
+margin:0px;
+padding:0px;
+float:left;
+width:330px;
+}
+
+#side_menu{
+margin:0px auto;
+padding:0px;
+width:220px;
+}
+
+#side_menu ul{
+margin:0px;
+padding:0px;
+list-style-type:none;
+}
+
+#side_menu li{
+margin:0px;
+padding:5px 0 5px 0;
+float:left;
+}
+
+
+#side_bnr{
+margin:0px auto;
+padding:30px 0 0 0;
+}
+
+
+
+/***************cafe**************/
+
+#cafe{
+margin:0px;
+padding:0 0 150px 0;
+width:735px;
+float:right;
+}
+
+#cafe h1{
+margin:0px;
+padding:0 0 10px 0;
+}
+
+#cafe h2{
+margin:0px;
+padding:0 0 30px 0;
+}
+
+
+#cafe_01{
+margin:0px;
+padding:10px 0 0 0;
+}
+
+#cafe_01 p{
+line-height:1.8em;
+}
+
+#cafe_01 img{
+margin:0px;
+padding:0 0 20px 0
+;}
+
+#cafe_02{
+margin:0px;
+padding:40px 0 0 0;
+}
+
+#cafe_02 h3{
+margin:0px;
+padding:0 0 5px 0;
+}
+
+#cafe_02 p{
+line-height:1.8em;
+}
+
+#cafe_goods{
+margin:0px;
+padding:40px 0 0 0;
+}
+
+#cafe_goods h3{
+margin:0px;
+padding:0 0 20px 0;
+}
+
+#cafe_goods_left{
+margin:0px;
+padding:0px;
+float:left;
+width:250px;
+}
+
+#cafe_goods_right{
+margin:0px;
+padding:0px;
+float:right;
+}
+
+#cafe_goods_right p{
+margin:0 20px 0 0;
+padding:0px;
+width:440px;
+}
+
+
+/************access**************/
+
+#access{
+margin:0px;
+padding:0 0 150px 0;
+width:735px;
+float:right;
+}
+
+#access h1{
+margin:0px;
+padding:0 0 10px 0;
+}
+
+#access h2{
+margin:0px;
+padding:0 0 30px 0;
+}
+
+
+#access_01{
+margin:0px;
+padding:40px 0 0 0;
+}
+
+#access_01_left{
+margin:0px;
+padding:0px;
+float:left;
+width:316px;
+}
+
+#access_01 right{
+padding:0px;
+margin:0px;
+}
+
+#access_01_right table{
+margin:0px auto;
+padding:0px 0px 0px 0px;
+width:380px;
+text-align:left;
+}
+
+#access_01_right tr{
+margin:0px;
+padding:0px;
+background:url(../img/line.gif) bottom repeat-x;
+line-height:3em;
+}
+
+#access_01_right th{
+margin:0px;
+padding:0px;
+width:110px;
+}
+
+
+/*************first************/
+
+#first{
+margin:0px;
+padding:0 0 150px 0;
+width:735px;
+float:right;
+}
+
+#first h1{
+margin:0px;
+padding:0 0 10px 0;
+}
+
+#first h2{
+margin:0px;
+padding:0 0 30px 0;
+}
+
+#first_01{
+margin:0px auto;
+padding:0px;
+width:570px;
+}
+
+#first_02{
+margin:0px auto;
+padding:20px 0 0 0;
+width:300px;
+}
+
+#first h3{
+margin:0px;
+padding:60px 0 20px 0;
+}
+
+
+
+/*********staff*************/
+#staff{
+margin:0px;
+padding:0 0 150px 0;
+width:735px;
+float:right;
+}
+
+#staff h1{
+margin:0px;
+padding:0 0 10px 0;
+}
+
+#staff h2{
+margin:0px;
+padding:0 0 5px 0;
+}
+
+#staff_list {
+margin:0px;
+padding:0px;
+}
+
+#profile_list_s {
+ width:160px;
+ float:left;
+ margin:0 20px 30px 0;
+ height:300px;
+ padding:0;
+}
+
+
+#profile_list_s_top img {
+ margin:0 0 10px 0;
+ padding:0;
+}
+
+
+#profile_list_s img {
+ margin:0 0 10px 0;
+ padding:0;
+}
+
+
+a.list_parts {
+ text-decoration:none;
+ color:#666666;
+ margin:0;
+ padding:0;
+}
+
+a.list_parts:hover {
+ color:#f98d00;
+ text-decoration:none;
+ margin:0;
+ padding:0;
+}
+
+
+
+#list_name {
+ width:139px;
+ height:20px;
+ font-size:14px;
+ font-weight:bold;
+ text-align:center;
+}
+
+
+/***********staff_prolile**************/
+
+#staff{
+margin:0px;
+padding:0 0 150px 0;
+width:735px;
+float:right;
+}
+
+#staff h1{
+margin:0px;
+padding:0 0 10px 0;
+}
+
+#staff h2{
+margin:0px;
+padding:0 0 5px 0;
+}
+
+#staff_profile{
+margin:0px;
+padding:40px 0 0 0;
+}
+
+#staff_profile_left{
+margin:0px;
+padding:0px;
+float:left;
+width:316px;
+}
+
+#staff_profile_right{
+padding:0px;
+margin:0px;
+}
+
+#staff_profile_right table{
+margin:0px auto;
+padding:0px;
+width:380px;
+text-align:left;
+}
+
+#staff_profile_right tr{
+margin:0px;
+padding:0px;
+background:url(../img/line.gif) bottom repeat-x;
+line-height:3em;
+}
+
+.prof_name {
+font-size:14px;
+font-weight:bold;
+width:110px;
+margin:0px;
+padding:0px;
+}
+
+#prof_message table
+{
+margin:0px auto;
+padding:0px;
+width:380px;
+text-align:left;
+}
+
+#prof_message td
+{
+margin:0px;
+padding:0px;
+background:url(../img/line.gif) bottom repeat-x;
+line-height:1.6em;
+}
+
+
+/**********about_K****************/
+
+#about_k{
+margin:0px;
+padding:0 0 150px 0;
+width:735px;
+float:right;
+}
+
+#about_k h1{
+margin:0px;
+padding:0 0 10px 0;
+}
+
+#about_k h2{
+margin:0px;
+padding:0 0 5px 0;
+}
+
+#about_k h3{
+margin:0px;
+padding:20px 0 0px 0;
+}
+
+#about_k p{
+margin:0px;
+padding:10px 0 0px 0;
+}
+
+#about_k_in h3{
+margin:0px;
+padding:60px 0 0px 0;
+}
+
+
+.about_k_01{
+margin:0;
+padding:20px 0 100px 0;
+width:735;
+}
+
+.about_k_01_left{
+margin:0px;
+padding:20px 0 0 0;
+float:left;
+height:50px;
+}
+
+.about_k_01_right{
+margin:0px;
+padding:35px 0 0 0;
+float:right;
+width:140;
+height:25px;
+}
+
+
+/************bar_time**************/
+
+
+#bar{
+margin:0px;
+padding:0 0 150px 0;
+width:735px;
+float:right;
+}
+
+#bar h1{
+margin:0px;
+padding:0 0 10px 0;
+}
+
+#bar h2{
+margin:0px;
+padding:0 0 20px 0;
+}
+
+
+#bar_00{
+margin:0px;
+padding:0px 0 60px 0;
+}
+
+#bar_in{
+margin:0;
+padding:0;
+background:url(../img/bar_bg.jpg) no-repeat;
+width:735px;
+height:816px;
+}
+
+
+#bar_in h3{
+margin:0px;
+padding:20px 0 0px 0;
+position:relative;
+}
+
+#bar_in_01{
+margin:0;
+padding:310px 0 0px 0;
+position:absolute;
+}
+
+#bar_in_01 h3{
+margin:0px;
+padding:0px 0;
+}
+
+#bar_in_01 p{
+margin:0px;
+padding:10px 0 30px 0;
+}
+
+#bar_in_01_comic{
+margin:0;
+padding:0;
+background:url(../img/bar_comic.jpg) no-repeat;
+position:relative;
+width:291;
+height:231px;
+}
+
+
+#bar_in_01_comic img{
+margin:0 0 0 120px;
+padding:190px 0 0 0;
+position:absolute;
+}
+
+
+
+/*************footer***********/
+
+#footer{
+background:url(../img/footer_bg.jpg) no-repeat;
+height:254px;
+margin:0px auto;
+padding:0px;
+width:1918px;
+}
+
+#footer_in{
+margin:0px auto;
+padding:60px 0 0 0;
+width:185px;
+}
+
+
+
+
+/*************共通*************/
+.clearfloat{
+clear:both;
+

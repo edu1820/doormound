@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+
+
+body  {
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align:left;
+	color: #666666;
+}
+
+
+#wrap{
+margin:0 auto;
+padding:0;
+width:1918px;}
+
+
+#header{
+margin:0px auto;
+padding:0px;
+
+}
+
+#content{
+margin:0px auto;
+padding:0px;
+width:1100px;
+heigth:0px;
+}
+
+#side{
+margin:0px;
+padding:0px;
+float:left;
+width:330px;
+}
+
+#side_menu{
+margin:0 0 0 30px;
+padding:0px;
+width:205px;
+}
+
+#side_menu ul{
+margin:0px;
+padding:0px;
+list-style-type:none;
+}
+
+#side_menu li{
+margin:0px;
+padding:5px 0 5px 0;
+float:left;
+}
+
+
+#side_bnr{
+margin:0 0 0 30px;
+padding:30px 0 0 0px;
+}
+
+
+#main{
+width:765px;
+margin:0px;
+padding:0px;
+float:right;
+}
+
+
+
+#main_01{
+margin:0px auto;
+padding:0px;
+width:765px;
+}
+
+#main_02{
+margin:0px;
+padding:0px;
+}
+
+#main_02 ul{
+margin:0px;
+padding:0px;
+list-style-type:none;
+}
+
+#main_02 li{
+margin:0px;
+padding:0px;
+float:left;
+}
+
+
+#info {
+	margin:0px;
+	padding:20px 0 50px 0;
+	float:left;
+	width:765px;
+	height:350px;
+	overflow:hidden;
+	}
+
+#info h2{
+	margin:0px auto;
+	padding:0 0 20px 0;
+	width:750px;
+	}
+
+	
+#info ul {
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+	clear:both;
+	width:740px;
+	}
+	
+	
+#info li {
+	margin:0;
+	padding:0;
+	float:left;
+	}
+
+
+#info li#lef {
+	margin:0px;
+	padding:0;
+	width:140px;
+	}
+	
+#info li#rig {
+	margin:0px;
+	padding:0;
+	width:600px;
+	line-height:1.5em;
+	}
+
+#info li#rig a {
+	margin:0;
+	padding:0;
+	color:#666666;
+	text-decoration:underline;
+	}
+	
+#info li#rig a:hover {
+	margin:0;
+	padding:0;
+	color:#666666;
+	text-decoration:none;
+	}
+
+#info li#und {
+	margin:0;
+	padding:0;
+	width:320px;
+	clear:both;
+	}
+
+
+
+
+.info_date{
+margin:0;
+padding:0;
+width:px;
+font-weight:bold;
+background-color:#f4e5fd;
+}
+
+
+
+.info_title{
+margin:0 0 0 10px;
+padding:0;
+}
+
+.info_message{
+margin:0;
+padding:0;
+width:;
+text-align: left;
+}
+
+
+
+
+/*************footer***********/
+
+#footer{
+background:url(../img/footer_bg.jpg) no-repeat center;
+height:254px;
+margin:0px auto;
+padding:0px;
+width:1918px;
+}
+
+#footer_in{
+margin:0px auto;
+padding:60px 0 0 0;
+width:185px;
+}
+
+
+
+
+
+/*************共通*************/
+.clearfloat{
+clear:both;
+}
+
+
+
+
+
+
+
+
+

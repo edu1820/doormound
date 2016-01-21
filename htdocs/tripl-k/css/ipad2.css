@@ -1,0 +1,948 @@
+@charset "utf-8";
+/* CSS Document */
+
+body  {
+	font-family: 'メイリオ','ＭＳ Ｐゴシック',serif,sans-serif ;
+	font-size:14px;
+	color: #666666;
+	margin: 0;
+	padding: 0;
+	text-align:left;
+	background:#ededed;
+	}
+
+
+
+#header{
+	margin:0px;
+	padding:0px;
+	background:#fff;
+				}	
+
+
+#header_in{
+	margin:0px auto;
+	padding:0px;
+	height:499px;
+	min-width: 1040px;
+	background:url(../img/ipad_header_bg.jpg)
+no-repeat top;
+	}
+
+	
+/*ie*/	
+
+* html #header_in{
+margin:0px;
+	padding:0px;
+	height:499px;
+	min-width: 1040px;
+	zoom: 1;
+	}
+
+* html #header_in {
+	width:expression(document.body.clientWidth < 1042? "1040px" : "auto");
+}
+
+
+#header_mid{
+　　margin:0px;
+	padding:0px;
+	background:#ec1e79;
+	height:60px;
+	background:url(http://triple-kmen.com/img/ipad_navi_img.gif)
+no-repeat;
+width:1040px;
+}
+	
+#header_mid_in{
+	margin:0px auto;
+	padding:0px;
+	width:1040px;
+	height:60px;
+	}	
+	
+
+#navi{
+	margin:0px;
+	padding:0px;
+	background:#ec1e79;
+	height:57px;
+	}
+
+* html #navi{
+	margin:0 0 -1px 0;
+	padding:0px;
+	background:#ec1e79;
+	height:57px;
+	line-height:0;
+	vertical-align:bottom;
+	}
+
+
+	
+#navi_in{
+	margin:0px auto;
+	padding:0px;
+	width:1001px;
+	height:57px
+	}	
+
+#navi_in img{
+	margin:0px auto;
+	padding:0px;
+	height:57px
+	}
+	
+#navi_in ul{
+	list-style-type:none;
+	margin:0px auto;
+	padding:0px;
+	}	
+
+* html #navi_in ul{
+	list-style-type:none;
+	margin:0px auto;
+	padding:0px;
+	height:57px;
+	line-height:0;
+	font-size:1px;
+	vertical-align:bottom;
+	}	
+
+#navi_in li{
+	margin:0px;
+	padding:0px;
+	float:left;
+	height:57px
+	}
+	
+
+* html #navi_in li{
+	margin:0px;
+	padding:0px;
+	float:left;
+	height:57px;
+	line-height:0;
+	vertical-align:bottom;
+	}
+
+* html #navi_in li a{
+	margin:0px;
+	padding:0px;
+	float:left;
+	height:57px;
+	line-height:0;
+	}
+	
+
+
+#wrapper{
+	margin:0 auto;
+	padding:0 30px 0 30px;
+	background:url(http://triple-kmen.com/img/wrapper_bottom.png)
+no-repeat bottom;
+	}
+
+	
+	
+	
+*+html #wrapper{
+	margin:0 auto;
+	padding:120px 0 0 0;
+	background:url(http://triple-kmen.com/img/wrapper_bottom.png)
+no-repeat bottom;
+	}
+	
+
+	
+	
+#main{
+	margin:0px auto;
+	padding:0 0 30px 0;
+	width:1000px;
+	background:#ffffff;
+	}
+
+#maincontent{
+	margin:0;
+	padding:30px 0 0 0;
+	float:left;
+	width:680px;
+	}
+	
+	
+
+#side{
+	margin:0;
+	padding:30px 0 0px 0;
+	float:right;
+	width:285px;
+	}	
+	
+		
+
+
+#side_bnr{
+	margin:0px auto;
+	padding:30px 0 30px 0;
+	width:238px;
+	}
+
+
+
+#side_bnr img{
+	margin:0px auto;
+	padding:0 0 30px 0;
+	width:238px;
+}
+
+	
+
+
+#side_top{
+	margin:0px;
+	padding:0px;
+	background:url(http://triple-kmen.com/img/side_top.gif)
+no-repeat ;
+	width:285px;
+	height:42px;
+}
+
+#side_mid{
+	margin:0px;
+	padding:0px;
+	background:url(http://triple-kmen.com/img/side_mid.gif)
+repeat-y;
+	width:285px;
+	}
+
+#side_bot{
+	margin:0px;
+	padding:0px;
+	background:url(http://triple-kmen.com/img/side_bot.gif)
+no-repeat;
+	width:285px;
+	height:24px;
+	}
+
+/*access*/
+
+#access{
+margin:0 0 0 15px;
+padding:0 0 150px 0;
+width:680px;
+}
+
+#access h1{
+margin:0px;
+padding:0 0 10px 0;
+}
+
+#access h2{
+margin:0px;
+padding:0 0 30px 0;
+}
+
+
+#access_01{
+margin:0px;
+padding:40px 0 0 0;
+width:680px;
+}
+
+
+
+#access_01 table{
+margin:0px ;
+padding:0px 0px 0px 0px;
+width:680px;
+text-align:left;
+}
+
+#access_01 tr{
+margin:0px;
+padding:0px;
+background:url(../img/line.gif) bottom repeat-x;
+line-height:3em;
+}
+
+#access_01 th{
+margin:0px;
+padding:0px;
+width:110px;
+text-align:left;
+}
+
+
+
+
+
+
+
+#media{
+margin:0 0 0 15px;
+padding:0 0 150px 0;
+width:680px;
+}
+
+#media h1{
+margin:0px;
+padding:0 0 10px 0;
+}
+
+#media h2{
+margin:0px;
+padding:0 0 20px 0;
+}
+
+
+#media_01{
+margin:0px;
+padding:0px;
+}
+
+
+
+/*info*/
+
+#info_01{
+overflow-y: scroll;
+height:350px;
+widht:680px;
+}
+
+	
+#info_01 ul {
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+	clear:both;
+	widht:680px;
+	}
+	
+	
+#info_01 li {
+	margin:0;
+	padding:0;
+	float:left;
+	}
+
+
+#info_01 li#lef {
+	margin:0 5px 0 0;
+	padding:0;
+	width:140px;
+	}
+
+#info_01 li#lef img{
+margin:0px;
+	padding:0;
+	width:140px;
+border:0px;
+}	
+	
+	
+#info_01 li#rig {
+	margin:0px;
+	padding:0;
+	width:500px;
+	line-height:1.5em;
+	}
+
+
+
+#rig a{
+color:#666666;
+text-decoration:none;
+}
+
+
+
+#rig a{
+color:#666666;
+text-decoration:underline;
+}
+
+#rig a:hover{
+color:#666666;
+text-decoration:none;
+}
+
+/*#info_01 li#rig a {
+	margin:0;
+	padding:0;
+	color:#666666;
+	text-decoration:underline;
+	}
+	
+#info_01 li#rig a:hover {
+	margin:0;
+	padding:0;
+	color:#666666;
+	text-decoration:none;
+	}*/
+
+#info_01 li#und {
+	margin:0;
+	padding:0;
+	width:320px;
+	clear:both;
+	}
+
+
+
+
+.info_date{
+margin:0;
+padding:0;
+width:px;
+font-weight:bold;
+background-color:#f4e5fd;
+}
+
+
+
+.info_title a {
+margin:0 0 0 10px;
+padding:0;
+color:#666666;
+text-decoration:none;
+}
+
+
+
+.info_message a{
+margin:0;
+padding:0;
+width:;
+text-align: left;
+color:#666666;
+text-decoration:none;
+}
+
+
+
+
+
+
+/**********about_K****************/
+
+#about_k{
+margin:0 0 0 15px;
+padding:0 0 30px 0;
+width:680px;
+}
+
+#about_k h1{
+margin:0px;
+padding:0 0 10px 0;
+}
+
+#about_k h2{
+margin:0px;
+padding:0 0 20px 0;
+}
+
+#about_k_01{
+margin:20px 0 0 0 ;
+padding:25px 0 0 0 ;
+width:680px;
+}
+
+#about_k_in{
+margin:0px;
+padding:40px 0 20px 0;
+}
+
+
+#cafe{
+margin:0 0 0 15px;
+padding:0 0 30px 0;
+width:680px;
+}
+
+#cafe h2{
+margin:0px;
+padding:0 0 30px 0;
+}
+
+
+#cafe_03{
+margin:0px;
+padding:10px 0 0 0;
+}
+
+#cafe_03 h3{
+margin:0px;
+padding:10px 0 0 0;
+}
+
+
+#cafe_03 p{
+line-height:1.8em;
+}
+
+
+#cafe_01{
+margin:0px;
+padding:60px 0 0 0;
+}
+
+#cafe_01 h3{
+margin:0;
+padding:0;
+}
+
+#cafe_01 p{
+line-height:1.8em;
+}
+
+#cafe_03in{
+margin:0px;
+padding:0px;
+width:680px;
+}
+
+#cafe_03in_l{
+float:left;
+margin:0px;
+padding:0px;
+width:400px;
+}
+
+#cafe_03in_r{
+float:right;
+margin:0px;
+padding:0px;
+vertical-align:bottom;
+width:200px;
+}
+
+
+
+
+#bar{
+	margin:0 0 0 15px;
+	padding:0 0 50px 0;
+	width:680px;
+}
+
+
+
+#bar h2{
+margin:0px;
+padding:0 0 20px 0;
+}
+
+
+#bar_in{
+margin:0;
+padding:0;
+background:url(../img/bar_bg.jpg) no-repeat;
+width:680px;
+height:754px;
+}
+
+
+#bar_in h3{
+margin:0px;
+padding:20px 0 0px 0;
+position:relative;
+}
+
+#drinkbnr{
+margin:0 0 0 50px;
+padding:165px 0 0 0;
+position:absolute;}
+
+
+
+#bar_in_01{
+margin:0;
+padding:310px 0 0px 0;
+}
+
+#bar_in_01 h3{
+margin:0px;
+padding:0px 0;
+}
+
+#bar_in_01 p{
+margin:0px;
+padding:10px 0 30px 0;
+}
+
+#bar_in_01_comic{
+margin:0;
+padding:0;
+background:url(../img/bar_comic.jpg) no-repeat;
+position:relative;
+width:291;
+height:231px;
+}
+
+
+#bar_in_01_comic img{
+margin:0 0 0 120px;
+padding:190px 0 0 0;
+position:absolute;
+}
+
+
+/*//menu//*/
+
+#cafemenu{
+	margin:0 0 0 15px;
+	padding:0 0 50px 0;
+	width:680px;
+	}
+
+#cafemenu h2{
+margin:0px;
+padding:0 0 20px 0;
+}
+
+#cafemenu_l{
+	margin:0px;
+	padding:20px 0 0 0;
+	float:left;
+	width:200px;
+	}
+
+#cafemenu_r{
+	margin:0px;
+	padding:20px 0 0 0;
+	float:right;
+	width:450px;
+	}
+
+
+
+
+#barmenu{
+	margin:0 0 0 15px;
+	padding:0 0 50px 0;
+	width:680px;
+	}
+
+
+#barmenu h2{
+margin:0px;
+padding:0 0 20px 0;
+}
+
+
+#barmenu_l{
+	margin:0px;
+	padding:20px 0 0 0;
+	float:left;
+	width:420px;
+	}
+
+#barmenu_r{
+	margin:0px;
+	padding:20px 0 0 0;
+	float:right;
+	width:260px;
+	}
+
+
+
+
+#schedule{
+margin:0 0 0 15px;
+padding:0 0 150px 0;
+width:680px;
+}
+
+#schedule h1{
+margin:0px;
+padding:0 0 10px 0;
+}
+
+#schedule h2{
+margin:0px;
+padding:0 0 20px 0;
+}
+
+#schedule_01{
+margin:0px;
+padding:20px 0 0 0;}
+
+#schedule table{
+width:680px;
+margin:0px auto;
+padding:0px;
+border-collapse:collapse;
+border:#CCCCCC solid 1px;
+}
+
+#schedule th {
+	margin:0;
+	padding:5px;
+	border:#CCCCCC solid 1px;
+	font-size:10px;
+	vertical-align:top;
+	line-height:1.8em;
+	height:20px;
+	text-align:center;
+}
+
+
+#schedule td {
+	margin:0;
+	padding:5px;
+	border:#CCCCCC solid 1px;
+	font-size:14px;
+	vertical-align:top;
+	line-height:1.8em;
+	height:20px;
+}
+
+
+
+#minamu{
+margin:0 0 0 15px;
+padding:0 0 150px 0;
+width:680px;
+ }
+
+
+#minamu01{
+margin:0px;
+padding:20px 0 0 0;
+}
+
+#minamu_01_l{
+margin:0px;
+padding:20px 0 0 0;
+float:left;
+}
+
+#minamu_01_r{
+margin:0px;
+padding:20px 0 0 0;
+float:right;
+}
+
+
+#minamu_01_r table{
+margin:0 0px 0 0 ;
+padding:0px 0  0;
+}
+
+
+
+/*********staff*************/
+#staff{
+margin:0 0 0 15px;
+padding:0 0 150px 0;
+width:680px;
+}
+
+#staff h1{
+margin:0px;
+padding:0 0 10px 0;
+}
+
+#staff h2{
+margin:0px;
+padding:0 0 5px 0;
+}
+
+#staff_list {
+margin:0px;
+padding:0px;
+}
+
+#profile_list_s {
+ width:120px;
+ float:left;
+ margin:0 40px 30px 0;
+ height:300px;
+ padding:0;
+}
+
+
+#profile_list_s_top img {
+ margin:0 0 10px 0;
+ padding:0;
+}
+
+
+#profile_list_s img {
+ margin:0 0 10px 0;
+ padding:0;
+}
+
+
+a.list_parts {
+ text-decoration:none;
+ color:#666666;
+ margin:0;
+ padding:0;
+}
+
+a.list_parts:hover {
+ color:#f98d00;
+ text-decoration:none;
+ margin:0;
+ padding:0;
+}
+
+
+
+#list_name {
+ width:139px;
+ height:20px;
+ font-size:14px;
+ font-weight:bold;
+ text-align:center;
+}
+
+#photo{
+margin:0px;
+padding:20px 0 0 0 ;}
+
+
+#photo img{
+margin:0 10px 0 0:
+padding:0px;}
+
+
+
+/***********staff_prolile**************/
+
+#staff{
+margin:0 0 0 15px;
+padding:0 0 150px 0;
+width:680px;
+}
+
+#staff h1{
+margin:0px;
+padding:0 0 10px 0;
+}
+
+#staff h2{
+margin:0px;
+padding:0 0 5px 0;
+}
+
+#staff_profile{
+margin:0px;
+padding:40px 0 0 0;
+}
+
+#staff_profile_left{
+margin:0px;
+padding:0px;
+float:left;
+width:320px;
+}
+
+#staff_profile_right{
+padding:0px;
+margin:0px;
+}
+
+#staff_profile_right table{
+margin:0px auto;
+padding:0px;
+width:320px;
+text-align:left;
+}
+
+#staff_profile_right tr{
+margin:0px;
+padding:0px;
+background:url(../img/line.gif) bottom repeat-x;
+line-height:3em;
+}
+
+.prof_name {
+font-size:14px;
+font-weight:bold;
+width:110px;
+margin:0px;
+padding:0px;
+}
+
+#prof_message table
+{
+margin:0px auto;
+padding:0px;
+width:320px;
+text-align:left;
+}
+
+#prof_message td
+{
+margin:0px;
+padding:0px;
+background:url(../img/line.gif) bottom repeat-x;
+line-height:1.6em;
+}
+
+
+#photo{
+margin:0px;
+padding:20px 0 0 0 ;}
+
+
+#photo img{
+margin:0 10px 0 0:
+padding:0px;}
+
+
+#back_btn{
+	margin:0px;
+	padding:0px;
+	float:right;
+	}
+
+
+
+
+#topics{
+	margin:0 0 0 15px;
+	padding:0 0 150px 0;
+	width:680px;
+	}
+
+
+#footer{
+	margin:0px;
+	padding:0px;
+	background:#ec1e79;
+	height:280px;
+	width:1040px;
+	}	
+	
+
+
+#footer ul{
+	list-style-type:none;
+	margin:0px auto;
+	padding:70px 0 50px 0;
+	width:850px;
+	}
+	
+#footer li{
+	margin:0px;
+	padding:0px;
+	float:left;
+	}	
+	
+#footer p{
+	margin:0px auto;
+	padding:0px;
+	width:400px;
+	color:#fff;
+	}
+	
+	
+.clear{
+	clear:both;
+	}	

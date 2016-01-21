@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+.gallery {
+	width: 900px;
+	margin: 0 30px;
+}
+
+.galTitle {
+	border-left: solid 10px #ccc;
+	border-bottom: solid 2px #ccc;
+	height: 30px;
+	line-height: 30px;
+	font-size: 24px;
+	text-indent: 20px;
+	margin-bottom: 20px;
+	color: #333;
+	font-family: serif;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+.galRow {
+	width: 840px;
+	border-bottom: dotted 1px #ccc;
+	margin: 0 30px;
+	height: 50px;
+	font-size: 22px;
+	color: #333;
+}
+
+.galRow a {
+	text-decoration: none;
+}
+
+.galName {
+	float: left;
+	width: 400px;
+	margin-top: 24px;
+	text-indent: 20px;
+}
+
+.galBox {
+	float: left;
+	text-indent: 20px;
+	margin-top: 24px;
+	width: 180px;
+}
+
+.galDay {
+	float: left;
+	text-indent: 20px;
+	margin-top: 24px;
+}

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 3%;
+	font-family : 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	color: #666;
+}
+#header {
+	margin: 0 0 2.1em;
+	padding: 0 0 0.7em;
+	border-bottom: solid 1px #666;
+}
+#header h1 {
+	line-height: 1;
+}
+#header h1 span {
+	width: 30%;
+	float: right;
+	display: inline-block;
+	font-size: 0.75em;
+	text-align: right;
+}
+#footer {
+	margin: 2.1em 0 0;
+	font-size: 1.2em;
+}
+ul li img {
+	margin: 0 auto;
+}

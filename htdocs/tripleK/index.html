@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja">
 	<head>
-		<meta charset="UTF-8" />
-  		<meta name="keywords" content="">
+		<meta charset="UTF-8" /><meta name="keywords" content="triple K,tripleK,triplek,DM Entertainment,LIVE,アマチュアアーティスト,KOREAN MEN'S BAR,DoorMound,新大久保,求人" />
+		<meta name="description" content="新大久保で会えるアイドル　k-popやj-popのダンスカバーなどでライブを盛り上げます。ライブスタッフやアイドル練習生募集中" />
 		<!--title-->
-		<title>DMエンターテインメント</title>
+		<title>DM Entertainment</title>
 		<!--css-->
 		<link rel="stylesheet" type="text/css" href="css/reset.css" />
 		<link rel="stylesheet" type="text/css" href="css/common.css" />
 		<!--JavaScript-->
 		<script>
-			var imageArray = ["image/slide/mainV1.png","image/slide/mainV2.png",
-			        "image/slide/mainV3.png","image/slide/mainV4.png"];
+			var imageArray = ["image/slide/mainV1.jpg","image/slide/mainV2.jpg",
+			        "image/slide/mainV3.jpg","image/slide/mainV4.jpg"];
 			var currentImage = 0;
-			var timerId = setInterval("changeImage()",2500);
+			var timerId = setInterval("changeImage()",3000);
 
 			function changeImage() {
 			    showImage(currentImage);
@@ -28,28 +28,39 @@
 
 			    var thumbImages = document.getElementsByClassName("thumb");
 
-			    for(var i=0; i<thumbImages.length; i++) {
-			        thumbImages[i].classList.remove("select");
-			    }
-			    thumbImages[imageNo].classList.add("select");
+			    // for(var i=0; i<thumbImages.length; i++) {
+			    //     thumbImages[i].classList.remove("select");
+			    // }
+			    // thumbImages[imageNo].classList.add("select");
 			}
+		</script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-72503228-1', 'auto');
+		  ga('send', 'pageview');
+
 		</script>
 	</head>
 	<body>
 		<!--▽header▽-->
 		<header id="header">
 			<div class="logo clearfix">
-				<p class="logoImg"><img src="image/common/logo.png" alt="ロゴ"></p>
-				<p class="reservImg"><img src="image/common/reserv.png" alt="ご予約の方はこちら"></p>
+				<a href="index.html"><p class="logoImg"><img src="image/common/logo3.png" alt="ロゴ"></p></a>
+				<a href="https://docs.google.com/forms/d/1BkNHB3snKzJKwa_5KKymPcb9pg-Ev0b7E2pUnvjep4c/viewform"><p class="reservImg"><img src="image/common/reserv1.png" alt="ご予約の方はこちら"></p></a>
 			</div>
 			<nav>
 				<ul class="clearfix navi">
-					<a href="member.html"><li class="navLi nrM"><img src="image/common/member.png" alt="メンバー" /></li></a>
-					<a href="live.html"><li class="navLi nrM"><img src="image/common/live.png" alt="ライブ紹介" /></li></a>
-					<a href="beginner.html"><li class="navLi nrM"><img src="image/common/beginner.png" alt="初めての方" /></li></a>
-					<a href="schedule.html"><li class="navLi nrM"><img src="image/common/schedule.png" alt="スケジュール" /></li></a>
-					<a href="access.html"><li class="navLi nrM"><img src="image/common/access.png" alt="アクセス・地図" /></li></a>
-					<a href="company.html"><li class="nav6"><img src="image/common/company.png" alt="運営会社" /></li></a>
+				<!-- <img src="image/common/member.png" alt="メンバー" /> -->
+					<li class="navLi nrM mem"><a href="member.html"></a></li>
+					<li class="navLi nrM liv"><a href="live.html"></a></li>
+					<li class="navLi nrM beg"><a href="beginner.html"></a></li>
+					<li class="navLi nrM sch"><a href="schedule.html"></a></li>
+					<li class="navLi nrM acc"><a href="access.html"></a></li>
+					<li class="nav6 com"><a href="http://doormound.com/"></a></li>
 				</ul>
 				<hr/>
 			</nav>
@@ -61,23 +72,73 @@
 			<div id="mainCntnt" class="clearfix">
 				<article class="leftColumn">
 					<section id="mainV">
-						<p class="mainImg"><img src="image/slide/mainV1.png" id="main"></p>
-					    <div id="thumbArea">
-					        <img src="image/slide/mainSv1.png" class="thumb select" onclick="showImage(0)">
-					        <img src="image/slide/mainSv2.png" class="thumb" onclick="showImage(1)">
-					        <img src="image/slide/mainSv3.png" class="thumb" onclick="showImage(2)">
+						<p class="mainImg"><img src="image/slide/mainV1.jpg" id="main"></p>
+					    <!-- <div id="thumbArea">
+					        <img src="image/slide/mainSv1.png" class="thumb select smallImg" onclick="showImage(0)">
+					        <img src="image/slide/mainSv2.png" class="thumb smallImg" onclick="showImage(1)">
+					        <img src="image/slide/mainSv3.png" class="thumb smallImg" onclick="showImage(2)">
 					        <img src="image/slide/mainSv4.png" class="thumb" onclick="showImage(3)">
-					    </div>
+					    </div> -->
 					</section>
 					<section id="info">
-						<p class="infoTitle"><img src="image/main/news.png" alt="新着情報"></p>
-						<iframe class="autoHeight" scrolling="auto" frameborder="0" src="news/diary14.cgi" id="NEWINFO" width="600px"></iframe>
+						<div class="infoTitle">
+							<h2><span style="color:red">D</span><span style="color:blue">M</span>&nbsp;Entertainment&nbsp;NEWS</h2>
+						</div>
+						<!-- <div class="news">
+							<div class="newsBox clearfix">
+								<p class="newsTitle">TRIPLE-Kサイトがリニューアルされました。</p>
+								<p class="newsDay">2016/01/16</p>
+							</div>
+							<div class="newsText">
+								<p>いつもサイトをご利用頂きまして、誠にありがとうございます。<br/><br/>
+								本日、「<span style="color:blue">TRIPLE-K</span>」のサイトリニューアルを行いました。<br/>
+								今後、「<span style="color:red">D</span><span style="color:blue">M</span>&nbsp;Entertainment」として運営していきます。<br/><br/>
+								新たに、出演アーティストプロフィールを掲載致しました。<br/>
+								また、今後サイト内コンテンツを増やしていきますので、引き続き<br/>
+								「<span style="color:red">D</span><span style="color:blue">M</span>&nbsp;Entertainment」の応援をよろしくお願い致します。<br/>
+								</p>
+							</div>
+						</div> -->
+						
+						<div class="news">
+							<div class="newsBox clearfix">
+								<p class="newsTitle">「GRANDSLAM vol.3」 Broom☆出演決定</p>
+								<p class="newsDay">2016/01/16</p>
+							</div>
+							<div class="newsText">
+								<p>1月26日(火)@渋谷@VUENOS<br/>
+								前売り：3,000+1d<br/>
+								当日：3,500+1d<br/><br/>
+								出演アーティスト<br/>
+								SELLOUT、1+1、WAVE、KEN.<br/>
+								<span style="color:blue">Broom☆</span>、AMAZO NIGHT、青野沙穂、by4ME<br/><br/>
+								アーティスト追加発表あり
+							</div>
+						</div>
+						
+						<div class="news">
+							<div class="newsBox clearfix">
+								<p class="newsTitle2">『BOYS TIME vol.14～Valentine SP～』Broom☆出演決定</p>
+								<p class="newsDay">2016/01/21</p>
+							</div>
+							<div class="newsText">
+								<p>2月8日(月)@<a href="http://www.yoani-live.com/">代アニLIVEステーション</a><br/>
+								前売り：3,000+1d&nbsp;&nbsp;当日：3,500+1d<br/>
+								チケットはこちら　<a href="http://sort.eplus.jp/sys/T1U14P0010163P0108P002178456P0050001P006001P0030001">イープラス予約</a><br/><br/>
+								出演アーティスト<br/>
+								WAVE、SELLOUT、<span style="color:blue">Broom☆</span>、EPIC STAR、DAZZLE AND PAZZLE<br/>
+								REARIZ、SGP、R.E.V.O、藤田真平、KOJI ISHIWATA、MC KuNI<br/><br/>
+								<span style="color:red;font-size:14px;">※当日の入場は「イープラス整理番号→取り置き・当日券」の順となります。</span>
+							</div>
+						</div>
+
 					</section>
 				</article>
 
 				<article class="rightColumn">
 					<div class="rInfo">
 						<p class="rTitle">Information</p>
+						<hr class="rhr" />
 					</div>
 					<section id="twitter">
 						<a class="twitter-timeline" 
@@ -98,9 +159,9 @@
 					</section>
 
 					<section id="banner">
+						<p class="bannerImg"><img src="image/common/bnr_press.jpg" alt="サイドバナー" /></p><!-- 
 						<p class="bannerImg"><img src="image/main/side_banner.png" alt="サイドバナー" /></p>
-						<p class="bannerImg"><img src="image/main/side_banner.png" alt="サイドバナー" /></p>
-						<p class="bannerImg"><img src="image/main/side_banner.png" alt="サイドバナー" /></p>
+						<p class="bannerImg"><img src="image/main/side_banner.png" alt="サイドバナー" /></p> -->
 					</section>
 				</article>
 			</div>
@@ -111,16 +172,16 @@
 		<footer>
 			<div class="fLink">
 				<ul class="clearfix">
-					<li class="navLi frB">TOP</li>
-					<li class="navLi frB">ライブ紹介</li>
-					<li class="navLi frB">初めての方</li>
-					<li class="navLi frB">スケジュール</li>
-					<li class="navLi frB">アクセス・地図</li>
-					<li class="navLi">運営会社</li>
+					<li class="navLi frB"><a href="member.html">メンバー</a></li>
+					<li class="navLi frB"><a href="live.html">ライブ紹介</a></li>
+					<li class="navLi frB"><a href="beginner.html">初めての方</a></li>
+					<li class="navLi frB"><a href="schedule.html">スケジュール</a></li>
+					<li class="navLi frB"><a href="access.html">アクセス・地図</a></li>
+					<li class="navLi"><a href="http://doormound.com/">運営会社</a></li>
 				</ul>
 			</div>
 			<small>
-				<p>Copyright &copy; 2016 TripleK All Rights Reserved.</p>
+				<p>Copyright &copy; 2016 DM Entertainment Co.,Ltd. All Rights Reserved.</p>
 			</small>
 		</footer>
 		<!--△footer△-->

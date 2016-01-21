@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+
+body  {
+	font-family: 'メイリオ','ＭＳ Ｐゴシック',serif,sans-serif ;
+	font-size:14px;
+	color: #666666;
+	margin: 0;
+	padding: 0;
+	text-align:left;
+	background:#ededed;
+	}
+
+#header{
+	margin:0px;
+	padding:0px;
+	background:#fff;
+				}	
+
+
+#header_in{
+	margin:0px auto;
+	padding:0px;
+	height:499px;
+	min-width: 1040px;
+	background:url(http://triple-kmen.com/img/header_bg.jpg)
+no-repeat top;
+	}
+	
+/*ie*/	
+
+* html #header_in{
+margin:0px;
+	padding:0px;
+	height:499px;
+	min-width: 1040px;
+	zoom: 1;
+	}
+
+* html #header_in {
+	width:expression(document.body.clientWidth < 1042? "1040px" : "auto");
+}
+
+
+#header_mid{
+　　margin:0px;
+	padding:0px;
+	background:#ec1e79;
+	height:60px;
+}
+	
+#header_mid_in{
+	margin:0px auto;
+	padding:0px;
+	width:1040px;
+	height:60px;
+	}	
+	
+
+#navi{
+	margin:0px;
+	padding:0px;
+	background:#ec1e79;
+	height:57px;
+	}
+
+* html #navi{
+	margin:0 0 -1px 0;
+	padding:0px;
+	background:#ec1e79;
+	height:57px;
+	line-height:0;
+	vertical-align:bottom;
+	}
+
+
+	
+#navi_in{
+	margin:0px auto;
+	padding:0px;
+	width:1001px;
+	height:57px
+	}	
+
+#navi_in img{
+	margin:0px auto;
+	padding:0px;
+	height:57px
+	}
+	
+#navi_in ul{
+	list-style-type:none;
+	margin:0px auto;
+	padding:0px;
+	}	
+
+* html #navi_in ul{
+	list-style-type:none;
+	margin:0px auto;
+	padding:0px;
+	height:57px;
+	line-height:0;
+	font-size:1px;
+	vertical-align:bottom;
+	}	
+
+#navi_in li{
+	margin:0px;
+	padding:0px;
+	float:left;
+	height:57px
+	}
+	
+
+* html #navi_in li{
+	margin:0px;
+	padding:0px;
+	float:left;
+	height:57px;
+	line-height:0;
+	vertical-align:bottom;
+	}
+
+* html #navi_in li a{
+	margin:0px;
+	padding:0px;
+	float:left;
+	height:57px;
+	line-height:0;
+	}
+	
+
+
+#wrapper{
+	margin:0 auto;
+	padding:0px;
+	background:url(http://triple-kmen.com/img/wrapper_bottom.png)
+no-repeat bottom;
+	}
+
+	
+	
+	
+*+html #wrapper{
+	margin:0 auto;
+	padding:120px 0 0 0;
+	background:url(http://triple-kmen.com/img/wrapper_bottom.png)
+no-repeat bottom;
+	}
+	
+	
+	
+	
+#main{
+	margin:0px auto;
+	padding:0 0 30px 0;
+	width:1000px;
+	background:#ffffff;
+	}
+
+#maincontent{
+	margin:0;
+	padding:30px 0 0 0;
+	float:left;
+	}
+	
+	
+
+#side{
+	margin:0;
+	padding:30px 0 0px 0;
+	float:right;
+	width:285px;
+	}	
+	
+#info ul{
+	list-style-type:none;
+	margin:0px auto;
+	padding:0px;
+	width:220px;
+	}
+	
+#info li.infoimg{
+	margin:0px;
+	padding:0px;
+	}	
+
+.info_date{
+	margin:0px;
+	padding:0px;
+	color:#ec1e79;
+	}
+
+.info_title{
+	margin:0px;
+	padding:0px;
+	color:#636363 !important;
+	font-weight:bold;
+	
+	}
+	
+.info_message{
+	margin:0px;
+	padding:0px;
+	color:#636363;
+	}
+
+
+#info li.info01{
+	margin:0px;
+	padding:0px;
+	}		
+
+
+#side_bnr{
+	margin:0px auto;
+	padding:30px 0 30px 0;
+	width:238px;
+	}
+
+
+
+#side_bnr img{
+	margin:0px auto;
+	padding:0 0 30px 0;
+	width:238px;
+}
+
+	
+
+
+#side_top{
+	margin:0px;
+	padding:0px;
+	background:url(http://triple-kmen.com/img/side_top.gif)
+no-repeat ;
+	width:285px;
+	height:42px;
+}
+
+#side_mid{
+	margin:0px;
+	padding:0px;
+	background:url(http://triple-kmen.com/img/side_mid.gif)
+repeat-y;
+	width:285px;
+	}
+
+#side_bot{
+	margin:0px;
+	padding:0px;
+	background:url(http://triple-kmen.com/img/side_bot.gif)
+no-repeat;
+	width:285px;
+	height:24px;
+	}
+
+
+
+	
+#footer{
+	margin:0px;
+	padding:0px;
+	background:#ec1e79;
+	height:280px;
+	}	
+	
+
+
+#footer ul{
+	list-style-type:none;
+	margin:0px auto;
+	padding:70px 0 50px 0;
+	width:850px;
+	}
+	
+#footer li{
+	margin:0px;
+	padding:0px;
+	float:left;
+	}	
+	
+#footer p{
+	margin:0px auto;
+	padding:0px;
+	width:400px;
+	color:#fff;
+	}
+	
+	
+.clear{
+	clear:both;
+	}	

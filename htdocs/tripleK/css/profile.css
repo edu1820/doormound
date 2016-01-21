@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+.prof {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.profLeft {
+	width: 300px;
+	margin: 0 15px 20px;
+	float: left;
+}
+
+.profImgMain {
+	width: 300px;
+	height: 315px;
+}
+
+.profImgMain img {
+	height: 298px;
+	height: 315px;
+	border: solid 1px #eee;
+	margin: auto 1px;
+}
+
+.profImgSub {
+	margin: 30px 15px 15px auto;
+	width: 300px;
+}
+
+.imgSub {
+	margin-left: 10px;
+	width: 130px;
+	height: 195px;
+	float: left;
+	border: solid 1px #eee;
+}
+
+.imgSub img {
+	width: 130px;
+	height: 195px;	
+}
+
+.profRight {
+	width: 270px;
+	float: left;
+}
+
+.profRow {
+	margin: 10px auto 20px;
+	border-bottom: solid 1px #ccc;
+}
+
+.profRow1 {
+	margin: 10px auto 30px;
+	height: 30px;
+	border-bottom: solid 3px #ccc;
+}
+
+.profRow2 {
+	margin: 10px auto 30px;
+	border-bottom: solid 1px #ccc;
+}
+
+.profRow3 {
+	margin: 10px auto 20px;
+	height: 80px;
+	border-bottom: solid 1px #ccc;
+}
+
+.profRow4 {
+	margin: 10px auto 20px;
+	height: 60px;
+	border-bottom: solid 1px #ccc;
+}
+
+.name {
+	font-size: 28px;
+	font-weight: bold;
+	float: left;
+	width: 150px;
+}
+
+.name2 {
+	float: left;
+	text-indent: 30px;
+	margin-top: 10px;
+}
+
+.hei,.wei,.bir,.age,.fav,.twi,.fav3 {
+	float: left;
+	width: 80px;
+	font-size: 14px;
+	color: #4169e1;
+}
+
+.hei2,.wei2,.bir2,.age2,.fav2,.twi2 {
+	float: left;
+	font-size: 16px;
+}
+
+.twi2 a {
+	text-decoration: none;
+}
+
+.fan {
+	font-size: 14px;
+	color: #4169e1;
+}
+
+.fan2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.fav4 {
+	float: left;
+	font-size: 16px;
+	height: 80px;
+	width: 190px;
+}
+
+.fav5 {
+	float: left;
+	font-size: 16px;
+	height: 60px;
+	width: 190px;
+}
+
+/* overlay */
+#click1,#click2 {
+	cursor: pointer;
+}
+
+#overlay1,#overlay2 {
+	margin: 0 auto;
+	display: none;
+	width: 960px;
+	height: 100%;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	background: rgba(0,0,0,0.7); 
+}
+
+#close1,#close2 {
+	background: #eee;
+    color: #717171;
+    width: 70px;
+    margin: 15px auto 0;
+    text-align: center;
+    font-size: 15px;
+    padding:5px 0 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 25px;
+    line-height: 25px;
+}
+
+.overImg {
+	margin-top: 100px;
+}
+
+.overImg img {
+	width: 300px;
+}

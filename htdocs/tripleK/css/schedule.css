@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+#sche {
+
+}
+
+.scheTitle {
+	border-left: solid 10px #ccc;
+	border-bottom: solid 2px #ccc;
+	height: 30px;
+	line-height: 30px;
+	font-size: 24px;
+	text-indent: 20px;
+	margin-bottom: 20px;
+	color: #333;
+	font-family: serif;
+	font-weight: bold;
+}
+
+.nextMonth {
+	font-size: 16px;
+	margin: 0 auto 20px;
+	text-indent: 10px;
+}
+
+.nextMonth a {
+	text-decoration: none;
+	color: #333;
+	font-family: serif;
+}
+
+.scheDay {
+	width: 580px;
+	margin: 0 10px 20px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	/*border: solid 1px #000;*/
+}
+
+.dayRow {
+	width: 580px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 16px;
+	color: #666;
+	font-family: serif;
+}
+
+.days {
+	width: 120px;
+	border: solid 1px #777;
+	font-size: 14px;
+}
+
+.event {
+	width: 460px;
+	border: solid 1px #777;
+	font-size: 14px;
+}
+
+.date {
+	text-align: center;
+	border: solid 1px #777;
+	font-size: 14px;
+}
+
+.eveCntnt {
+	text-indent: 20px;
+	border: solid 1px #777;
+	font-size: 14px;
+}
+
+.sut {
+	background-color: #A9E2F3;
+}
+
+.sun {
+	background-color: #F6CED8;
+}
+
+.scheInfo {
+	font-family: serif;
+	font-size: 16px;
+	text-indent: 20px;
+}

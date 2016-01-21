@@ -1,0 +1,198 @@
+<?php
+include("../template/header.php"); 
+?>
+
+
+
+
+
+<div id="maincontent">
+
+<div id="media">
+
+<h1><img src="../img/h1_media.gif" width="680" height="40" alt="トリプルＫメディア・イベント各位1"></h1>
+<h2><img src="../img/h2_media.gif" width="680" height="32" alt="トリプルＫメディア・イベント各位2"></h2>
+<img src="../img/bar_press.gif" width="680" height="143" alt="for media">
+
+<div id="media_01">
+<p>
+お気軽にお問い合わせ下さい。<br/>
+
+電話番号	03-6273-9339</p>
+<form id="mailform" method="post" action="mailform/send.cgi" onsubmit="return sendmail(this);">
+				<table border="0" cellspacing="0" cellpadding="0" class="mailform">
+
+					<tr>
+						<th>メールアドレス<span>*</span><p>e-mail address</p></th>
+
+						<td><input type="text" name="email(必須)" size="50" maxlength="50" class="mf" /></td>
+
+					</tr>
+					<tr>
+						<th>確認用メールアドレス<span>*</span><p>e-mail address</p></th>
+
+						<td><input type="text" name="confirm_email" size="50" class="mf" onPaste=" alert('メールアドレスの打ち間違えが多いため、\nコピー&ペーストは禁止させて頂いております。');return false"　/></td>
+					</tr>
+					<tr>
+
+						<th>お名前<span>*</span><p>your name</p></th>
+						<td><input type="text" name="お名前(必須)" size="30" /></td>
+					</tr>
+		
+
+					<tr>
+						<th>コメント<span>*</span><p>inquiry body</p></th>
+
+						<td><textarea name="ご用件(必須)" rows="10" cols="70"></textarea></td>
+					</tr>
+					<tr>
+						<th><span>*</span>は必須項目です。</th>
+
+						<td><input type="submit" value="メールを送信する" /> <input type="reset" name="reset" value="リセット" /></td>
+					</tr>
+
+				</table>
+			</form>
+			<link rel="stylesheet" href="mailform/mailform.css" type="text/css">
+			<script type="text/javascript" src="mailform/mailform.js" charset="utf-8"></script>
+			<script type="text/javascript" src="mailform/postcodes/get.cgi?js" charset="utf-8"></script>
+
+			<!--ここまでコピー＆ペーストすればまず間違いないです--><br />
+            
+            
+            
+            <table cellpadding="0" cellspacing="0" width="100%">
+            <tr><td height="30px"></td></tr>
+            </table>
+            
+            
+<h2><img src="img/info_title.gif" alt="info_title" width="680" height="23"></h2>            
+<div id="info_01">
+
+
+<ul>
+<li id="lef"><!--http://triple-kmen.net/blog/user_images/20111127/23/triplek-official/5a/25/j/t02200147_0800053311638514634.jpg--><img src="/images/logo.gif"></li>
+<li id="rig"><span class="info_date"></span><span class="info_title"><a href="/media/post.php?id=11091390062">※東京タワーエンタメ祭　皆様～ありがとうございました！！※</span><br>
+<span class="info_message"><a href="/media/post.php?id=11091390062">11月26日（土）東京タワーで行った
+
+
+韓流フェスタ『エンタメ祭』
+
+大変、お客様のおかげで無事に終わりました。
+
+
+誠にありがとうございます。
+
+
+遠い所までいらっしゃったTRIPLEKのお客様
+....</a></span></li>
+<li id="und"><img src="img/info_line.gif" width="680" height="5" alt="ライン"></li>
+</ul><ul>
+<li id="lef"><!--http://triple-kmen.net/blog/user_images/20111126/04/triplek-official/8f/2a/j/t02200330_0800120011634221573.jpg--><img src="/images/logo.gif"></li>
+<li id="rig"><span class="info_date"></span><span class="info_title"><a href="/media/post.php?id=11089441667">※いよいよ本日、韓流フェスタ～エンタメ祭本番でチュ－※</span><br>
+<span class="info_message"><a href="/media/post.php?id=11089441667">
+いよいよ。。。드디어......
+
+すべてをお見せする本番の日１３：００と１７：００～お披露目ライブ！
+
+リハ無事に終わりました！
+
+東京タワーの一番～上まで上り祈りました！
+
+『まだまだ足りないこ....</a></span></li>
+<li id="und"><img src="img/info_line.gif" width="680" height="5" alt="ライン"></li>
+
+</ul><ul>
+<li id="lef"><!--http://triple-kmen.net/blog/user_images/20111124/04/triplek-official/f3/91/j/t02200330_0800120011630354295.jpg--><img src="/images/logo.gif"></li>
+<li id="rig"><span class="info_date"></span><span class="info_title"><a href="/media/post.php?id=11087582982">※11月26日（土）すべて公開します！※</span><br>
+<span class="info_message"><a href="/media/post.php?id=11087582982">
+皆様～
+
+
+TRIPLEKのユニット紹介させて頂きます。
+
+
+只今、一日5～6時間ハードレッスンを受けている
+
+
+ミッキー・シヒョン・ナクン
+
+
+11月26日（土）
+１３：００１７：００
+
+
+スペシ....</a></span></li>
+<li id="und"><img src="img/info_line.gif" width="680" height="5" alt="ライン"></li>
+</ul><ul>
+<li id="lef"><!--http://triple-kmen.net/blog/user_images/20111124/04/triplek-official/f3/91/j/t02200330_0800120011630354295.jpg--><img src="/images/logo.gif"></li>
+<li id="rig"><span class="info_date"></span><span class="info_title"><a href="/media/post.php?id=11087579489">※舞台【真田十勇士～ボクらが守りたかったもの～】宣伝です※</span><br>
+<span class="info_message"><a href="/media/post.php?id=11087579489">
+いつも当店TRIPLEKにお越し頂き、誠にカムハサムニダ
+
+
+TRIPLEKと協力して頂いている劇団『ノクタ－ン』さんからの
+
+
+舞台宣伝をさせて頂きます。
+
+
+
+
+
+
+
+舞台【真田十勇士～ボクらが....</a></span></li>
+<li id="und"><img src="img/info_line.gif" width="680" height="5" alt="ライン"></li>
+</ul><ul>
+
+<li id="lef"><!----><img src="/images/logo.gif"></li>
+<li id="rig"><span class="info_date"></span><span class="info_title"><a href="/media/post.php?id=11052216517">※20日（木曜日）　BAR　TIMEを休ませて頂きます※</span><br>
+<span class="info_message"><a href="/media/post.php?id=11052216517">
+(´＿｀｡)大変、申し訳ございません(・_・;)
+
+※１０月２０日（木）
+
+お店の事情により
+
+バーTIMEを休ませて頂きます。....</a></span></li>
+<li id="und"><img src="img/info_line.gif" width="680" height="5" alt="ライン"></li>
+</ul><ul>
+<li id="lef"><!--http://triple-kmen.net/blog/user_images/20111018/16/triplek-official/0c/26/j/t02200165_0800060011555160281.jpg--><img src="/images/logo.gif"></li>
+<li id="rig"><span class="info_date"></span><span class="info_title"><a href="/media/post.php?id=11051813520">※日本テレビ制作「ZIP」の撮影がありました！※</span><br>
+<span class="info_message"><a href="/media/post.php?id=11051813520">放送日時：2011年11月3日（木）朝6時23分ごろから～6分程度放送予定！！！皆さん見ててください。コーナーのなかでも曜日別にテーマがありまして、木曜日は「FUN」というテーマです。うわ!!テイクン....</a></span></li>
+<li id="und"><img src="img/info_line.gif" width="680" height="5" alt="ライン"></li>
+</ul><ul>
+<li id="lef"><!--http://triple-kmen.net/blog/user_images/20111017/18/triplek-official/41/38/j/t02200163_0800059211553423942.jpg--><img src="/images/logo.gif"></li>
+<li id="rig"><span class="info_date"></span><span class="info_title"><a href="/media/post.php?id=11050954294">※新聞、ネットに紹介されました(-^〇^-)※</span><br>
+
+<span class="info_message"><a href="/media/post.php?id=11050954294">日刊スポーツ１０月１７日版に紹介されました！YE～YO!YO!おめでとん～まんたんWEBBIGLOBEマイコミニコニコニュース皆様～TRIPLEKメンバー～頑張ります！！もっともっと盛り上げようねん！....</a></span></li>
+<li id="und"><img src="img/info_line.gif" width="680" height="5" alt="ライン"></li>
+</ul><ul>
+</div>
+
+
+</div><!--//media_01 end-->
+
+
+
+</div><!--//media end-->
+
+</div><!--maincontent-->
+
+
+<div class="clear"></div>
+
+</div><!--main-->
+
+
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr><td height="30px"></td></tr>
+</table>
+
+
+</div><!--wrapper-->
+
+<?php
+include("../template/footer.php");
+?>

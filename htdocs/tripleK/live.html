@@ -8,48 +8,98 @@
 		<!--css-->
 		<link rel="stylesheet" type="text/css" href="css/reset.css" />
 		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-72503228-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
 	</head>
 	<body>
 		<!--▽header▽-->
 		<header id="header">
-			<div class="headImg">
-				<img src="image/header.png" alt="DoorMound 次世代をコネクトする零士ネクスト" />
+			<div class="logo clearfix">
+				<a href="index.html"><p class="logoImg"><img src="image/common/logo3.png" alt="ロゴ"></p></a>
+				<a href="https://docs.google.com/forms/d/1BkNHB3snKzJKwa_5KKymPcb9pg-Ev0b7E2pUnvjep4c/viewform"><p class="reservImg"><img src="image/common/reserv1.png" alt="ご予約の方はこちら"></p></a>
 			</div>
 			<nav>
 				<ul class="clearfix navi">
-					<a href="member.html"><li class="navLi nav1 nvB focus">TOP</li></a>
-					<a href="index.html"><li class="navLi nav2 nvB">Philosophy</li></a>
-					<a href="index.html"><li class="navLi nav3 nvB">Connect</li></a>
-					<a href="index.html"><li class="navLi nav4 nvB">Company</li></a>
-					<a href="index.html"><li class="navLi nav5">Contact</li></a>
-					<a href="index.html"><li class="navLi nav4 nvB">Company</li></a>
+				<!-- <img src="image/common/member.png" alt="メンバー" /> -->
+					<li class="navLi nrM mem"><a href="member.html"></a></li>
+					<li class="navLi nrM liv"><a href="live.html"></a></li>
+					<li class="navLi nrM beg"><a href="beginner.html"></a></li>
+					<li class="navLi nrM sch"><a href="schedule.html"></a></li>
+					<li class="navLi nrM acc"><a href="access.html"></a></li>
+					<li class="nav6 com"><a href="http://doormound.com/"></a></li>
 				</ul>
+				<hr/>
 			</nav>
 		</header>
 		<!--△header△-->
 
 		<!--▽main▽-->
 		<div id="wrapper">
-			<article>
-				<section id="mainV">
-					
-				</section>
+			<div id="mainCntnt" class="clearfix">
+				<article class="leftColumn">
+					<div class="infoTitle2">
+						<h2><span style="color:blue">ライブのご紹介</span></h2>
+					</div>
+					<img src="image/live/live.jpg" width="600px" />
+					<!-- <img src="image/live/live_price2.jpg" width="600px" class="liveImg" />
+					<img src="image/live/live_way1.png" width="600px" class="liveImg" />
+					<img src="image/live/live_way2.png" width="600px" class="liveImg" /> -->
+				</article>
+			
+				<article class="rightColumn">
+					<div class="rInfo">
+						<p class="rTitle">Information</p>
+					</div>
+					<section id="twitter">
+						<a class="twitter-timeline" 
+						href="https://twitter.com/xxTRIPLEKxx/chromejacks%E3%83%84%E3%82%A4%E3%83%BC%E3%83%88" 
+						data-widget-id="375852400008912898" width="230px" height="450px">
+						@xxTRIPLEKxx/chromejacks%E3%83%84%E3%82%A4%E3%83%BC%E3%83%88からのツイート</a>
+						<script>
+						!function(d,s,id){
+							var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+							if(!d.getElementById(id)){
+								js=d.createElement(s);
+								js.id=id;
+								js.src=p+"://platform.twitter.com/widgets.js";
+								fjs.parentNode.insertBefore(js,fjs);
+							}
+						}(document,"script","twitter-wjs");
+						</script>
+					</section>
 
-				<section id="connection">
-					
-				</section>
-
-				<section id="links">
-					
-				</section>
-			</article>
+					<section id="banner">
+						<p class="bannerImg"><img src="image/common/bnr_press.jpg" alt="サイドバナー" /></p><!-- 
+						<p class="bannerImg"><img src="image/main/side_banner.png" alt="サイドバナー" /></p>
+						<p class="bannerImg"><img src="image/main/side_banner.png" alt="サイドバナー" /></p> -->
+					</section>
+				</article>
+			</div>
 		</div>
 		<!--△main△-->
 		
 		<!--▽footer▽-->
 		<footer>
+			<div class="fLink">
+				<ul class="clearfix">
+					<li class="navLi frB"><a href="member.html">メンバー</a></li>
+					<li class="navLi frB"><a href="live.html">ライブ紹介</a></li>
+					<li class="navLi frB"><a href="beginner.html">初めての方</a></li>
+					<li class="navLi frB"><a href="schedule.html">スケジュール</a></li>
+					<li class="navLi frB"><a href="access.html">アクセス・地図</a></li>
+					<li class="navLi"><a href="http://doormound.com/">運営会社</a></li>
+				</ul>
+			</div>
 			<small>
-				<p>Copyright &copy; 2015 Door Mound All Rights Reserved.</p>
+				<p>Copyright &copy; 2016 DM Entertainment Co.,Ltd. All Rights Reserved.</p>
 			</small>
 		</footer>
 		<!--△footer△-->

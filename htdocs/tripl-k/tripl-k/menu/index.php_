@@ -1,0 +1,103 @@
+<?php
+include("../template/header.php"); 
+?>
+
+
+
+
+
+<div id="maincontent">
+
+<div id="cafemenu">
+<h2><a name="cafe"><img src="../img/title_cafemenu.jpg" width="680" height="35" alt="カフェタイムmenu" /></a></h2>
+<img src="../img/cafemenu_img.jpg" width="680" height="143" alt="カフェタイムバナー" />
+<div id="cafemenu_l">
+<a href="../img/cafemenu_l.jpg" rel="lightbox[]"><img src="../img/cafemenu.jpg" width="200" height="283" alt="カフェメニュー" border="0" /></a><br/>
+<font color="#FF66CC">↑クリックすると詳しい<br/>メニューが見られるよ♪</font>
+</div>
+
+<div id="cafemenu_r">
+1.スイーツバイキング<br/>
+(スイーツ1品+トッピング)+ドリンク飲み放題<br/>
+<font color="#ff4800">\1,000円</font><br/>
+
+
+2.スイーツバイキング＋韓国語レッスン<br/>
+<font color="#ff4800">\1,300</font><br/
+</div>
+
+<div class="clear"></div>
+</div>
+
+
+
+
+
+
+
+<div id="barmenu">
+<h2><a name="bar"><img src="../img/title_barmenu.jpg" width="680" height="35" alt="バータイムmenu" /></a></h2>
+<img src="../img/barmenu_img.jpg" width="680" height="143" alt="バータイムバナー" />
+
+<div id="barmenu_l">
+<a href="../img/barmenu_01_l.jpg" rel="lightbox[]"><img src="../img/barmenu_01.jpg" width="200" height="283" alt="バーメニュー" border="0" /></a>
+<a href="../img/barmenu_02_l.jpg" rel="lightbox[]"><img src="../img/barmenu_02.jpg" width="200" height="283" alt="バーメニュー" border="0" /></a><br/>
+</div>
+
+<div id="barmenu_r">
+<!--１ドリンク＋チャーム<font color="#ff4800">　\2,000</font>-->
+
+オール韓流美男と楽しい時間を・・・<br>
+<font color="#ff4800">￥2,000/1ドリンク+チャーム付</font>でお楽しみ頂けます。<br>
+週末はクラブイベントやゲーム大会など<br>
+企画盛りだくさん！
+</div>
+
+<div class="clear"></div>
+</div>
+
+
+
+<div id="barmenu">
+<h2><a name="bar"><img src="../img/title_live.gif" width="680" height="32" alt="ライブ" /></a></h2>
+<!--<img src="../img/barmenu_img.jpg" width="680" height="143" alt="バータイムバナー" />-->
+入場料 <font color="#ff4800">\2,000</font>（ドリンクバー飲み放題）
+<br/><br/>
+・開始時間（入れ替え制）<br/>
+金 20：00～　<br/>
+土 15：00～＆20：00～<br/>
+日 15：00～＆19：00～<br/>
+</div>
+
+<div id="barmenu">
+<h2><a name="bar"><img src="../img/title_special.gif" width="680" height="32" alt="スペシャル" /></a></h2>
+<!--<img src="../img/barmenu_img.jpg" width="680" height="143" alt="バータイムバナー" />-->
+<font color="#ff4800">●カフェタイムご利用後、続けてライブ鑑賞の場合</font><br/>
+①スイーツバイキング＋ドリンクバー飲み放題＋ライブ　\3,000⇒\2,500<br/>
+②スイーツバイキング＋ドリンクバー飲み放題＋韓国語レッスン＋ライブ　\3,300⇒\2,800
+<br/><br/>
+<font color="#ff4800">●ライブ鑑賞後、続けてバータイムをご利用の場合</font><br/>
+１ドリンク＋チャーム･･･\2,000⇒\1,500<br/>
+<br/>
+</div>
+
+
+
+</div><!--maincontent-->
+
+
+<div class="clear"></div>
+
+</div><!--main-->
+
+
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr><td height="30px"></td></tr>
+</table>
+
+
+</div><!--wrapper-->
+
+<?php
+include("../template/footer.php");
+?>

@@ -1,0 +1,2 @@
+Redirect permanent / http://jacks-queens.com/
+RewriteRule ^old/$ /http://test-jacks.x0.com/system/ [R=301,L]

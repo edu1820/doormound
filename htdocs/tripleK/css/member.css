@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+#memberTitle {
+	border-left: solid 10px #ccc;
+	border-bottom: solid 2px #ccc;
+	height: 30px;
+	line-height: 30px;
+	font-size: 24px;
+	text-indent: 20px;
+	color: #666;
+	font-family: serif;
+	font-weight: bold;
+}
+
+.memberRow {
+	width: 600px;
+	height: 210px;
+	margin: 10px auto 0;
+}
+
+.members {
+	width: 136px;
+	height: 200px;
+	margin-left: 10px;
+}
+
+.memImg {
+	width: 128px;
+	margin: 4px;
+}
+
+.memImages {
+	width: 128px;
+}
+
+.memName {
+	text-align: center;
+	width: 136px;
+	height: 20px;
+	line-height: 20px;
+}
+
+.memProf {
+	text-align: center;
+	width: 136px;
+	height: 25px;
+	line-height: 25px;
+}
+
+.keigo {
+	/*border: solid 2px red;*/	
+	border: solid 2px #ccc;
+}
+
+.broom {
+	/*border: solid 2px blue;*/
+	border: solid 2px #ccc;
+	float: left;
+}
+
+.gion {
+	/*border: solid 2px green;*/
+	border: solid 2px #ccc;
+	float: left;	
+}
+
+.ate {
+	/*border: solid 2px yellow;*/
+	border: solid 2px #ccc;
+	float: left;	
+}
+
+.memSpace {
+	border: solid 2px #fff;
+	float: left;	
+}
+

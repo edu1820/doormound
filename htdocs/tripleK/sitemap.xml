@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
+<url>
+  <loc>http://triple-kmen.com/</loc>
+  <priority>1.0</priority>
+  <lastmod>2014-06-17T00:41:19+09:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://triple-kmen.com/index.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2014-06-17T00:41:19+09:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://triple-kmen.com/member.html</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://triple-kmen.com/schedule.html</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://triple-kmen.com/beginner.html</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://triple-kmen.com/live.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2014-06-17T00:41:19+09:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://triple-kmen.com/access.html</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://triple-kmen.com/schedule2.html</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+
+</urlset>

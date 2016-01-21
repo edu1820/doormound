@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#header{
+	width: 100%;
+	margin:0px;
+	padding:0px;
+	background:#fff;
+	background-image: url(../img/cover_bg2014.jpg);
+	background-position: center top;
+}
+#header_in{
+	margin: 0px auto;
+	padding: 0px;
+	height: 962px;
+	min-width: 1028px;
+	background: url(../img/header_bg2014.png)
+no-repeat center top;
+	}
+	
+/*ie*/	
+
+* html #header_in{
+margin:0px;
+	padding:0px;
+	height:962px;
+	min-width: 1024px;
+	zoom: 1;
+	}

@@ -1,0 +1,462 @@
+@charset "utf-8";
+body{
+	color:#333;
+	text-align:center;
+	line-height:150%;
+	font-family:Verdana, Ariel, Helvetica, sans-serif;
+	font-size:82%;		/* 13px */
+}
+a:link, a:visited			 { color: #0066d5 }
+a:hover, a:focus, a:active	{color:#ff0000; text-decoration:underline;}
+
+/* --基本layout割付と見出しサイズ---------- */
+div#container{width:900px; margin:0 auto; position:relative;}
+
+div#header{
+	height:492px;
+	width:900px;
+	clear:both;
+	overflow:hidden;
+	margin:0px auto 35px;
+}
+div#header h1{width:auto; height:100px; float:left; padding:0px 0px 13px 0px;}
+#sh_header_box .user{background:url("../../images/user.gif") no-repeat scroll left top; float:left; margin:3px 0 0; padding-left:1.5em; width:auto;}
+div#main { text-align: left; margin-bottom: 3em; position: relative; width: 660px; min-height: 0; float: right; clear: both }
+div#main2 { text-align: left; margin: 0 auto 3em; position: relative; width: 660px; min-height: 0; clear: both }
+
+div#content{}
+div#content_left{float:left; width:380px;}
+div#content_right{float:right; width:300px;}
+div#content h2.sh_heading_main_b		{}
+div#content h3.sh_heading_sub_main_b	 { margin-bottom: 0.7em }
+div#content strong{color:#FF6600; margin-top:10px;}
+
+div#menu{width:200px; float:left; text-align:left; margin-bottom:3.0em;}
+div#menu p			{text-align:left;}
+div#menu p a		{text-decoration:none;}
+div#menu p a:hover	{text-decoration:underline; color:#ff0000;}
+div#menu ul li.second_directory{margin:0 0 0 12px;}
+div#menu .sidemenu_line_horizontal{border-bottom:1px solid #ccc;}
+div#menu ul.ad{text-align:center;}
+
+.clearfix{min-height:0px;}/* あちこちに残っている「clearfix」セレクタ用。一応残存させておく。 */
+.clearfix:after{content:"."; height:0px; clear:both; display:block; visibility:hidden;}
+/*\*/
+* html .clearfix{height:1px;
+/*\*/ /*/
+height:auto; overflow:hidden;
+/**/
+}
+/**/
+
+
+
+/* ---ここから共通パーツの詳細設定--- */
+.HarfTone	{opacity:0.30; filter:alpha(opacity=30); -ms-filter:alpha(opacity=30);}
+p.comment	{margin-bottom:2.0em;}
+p#enter		{margin:10px 0; text-align:center;}/* 「パスワードを忘れたら」cntents内タイトル。_tmpl_login_re_input.htmlなどで使用。 */
+input#email	{width:170px;}/* ユーザー登録時のe-mail入力フォーム指定 */
+
+/*-- 左メニュー詳細 ---- --*/
+div.sid-content{width:200px; padding:6px 0 0 0; margin-top:3px; background:url("../../images/line_header.gif") no-repeat;}
+div.sid-content-border{width:198px; text-align:left; border-left:#ccc solid 1px; border-right:#ccc solid 1px;}
+div.sid-content-footer{height:6px; margin-bottom:3px; background:url("../../images/line_footer.gif") no-repeat;}
+ul#sidemenu{padding:10px 30px;}
+div.sid-content ul{border-left:1px solid #CCCCCC; border-right:1px solid #CCCCCC;}
+
+/* 広告 */
+* html .ad_display468x60{top:41px;}
+div#menu p.ad,
+div#menu p.banner{text-align:center; margin:0 auto 20px; width:200px;}
+div#menu p.ad{height:220px; margin:0 auto;}/* div#menu p.adは、http://id.fc2.com/_templates_jp/test/FC2IDtop_test_2010_1101.html用。2010/11/30実装後は消すこと。 */
+.ad_display200x200{position:absolute; top:395px; left:0;}
+.ad_display468x60{position:absolute; top:36px; right:0;}
+
+ul#ad{width:465px; margin:0 auto; padding:0; border:1px solid #CCCCCC; clear:both;}		/* ul#ad？そんな広告スペースあるか？ */
+ul#ad li{text-align:center; padding:2px;}
+ul#ad li.pr{padding:5px 0px; font-weight:bold; background-color:#EEEEEE; color:#333333;}
+ul#ad li p{background-color:#EEEEEE; padding:3px; font-size:12px;}
+ul#ad li img{margin:10px;}
+
+/*-- br ----このセレクタはどこで使ってるのかよくわからん */
+.height{padding:5px; height:90px;}
+
+
+
+/* --ここから個別メニュー用の指定。多いようだったら、以降は分割別ファイルcss化してもいいかも。------ */
+/* _tmpl_remind_secret_...., _tmpl_signup_input_....（いずれも未ログイン時に使用）などのファイル用 */
+table#no-login-table	{width:100%; text-align:left; border-collapse:collapse; margin-bottom:0em; border-top:#ccc solid 1px; border-left:#ccc solid 1px;}
+table#no-login-table td	{padding:0.5em; border-bottom:#ccc solid 1px; border-right:#ccc solid 1px;}
+table#no-login-table td.bk-gray				{background:#f2f2f2;}
+table#no-login-table td.td-right-noborder	{border-right:1px solid #fff;}
+table#no-login-table td.td-left-noborder	{border-left:1px solid #fff;}
+table#no-login-table td.td-noborder			{border-bottom:none; border-right:#ccc solid 1px; padding:0 0.5em;}
+
+#SecretQuestion				{width:650px; border:dotted 1px #777; padding:1.0em;}
+#SecretQuestion h3			{color:#666; margin:0 0 6px 0; font-size:125%;}
+#SecretQuestion .comment	{color:#666; margin:0;}
+.tool{height:35px; padding:5px;}/* 認証画像の配置用セレクタ */
+
+
+/* tmpl_wallet_...., tmpl_transaction_..., tmpl_cash_...., tmpl_buy_,.... tmpl_point_convert_.....(いずれも支払プロセスに使用)などのファイル用。 */
+/* なんだか支払・決済用ファイルはたくさんあるので注意！ */
+table#wallet-table		{width:100%; text-align:left; border-collapse:collapse; margin-bottom:1.0em; border-top:#ccc solid 1px; border-left:#ccc solid 1px;}
+table#wallet-table td	{padding:0.5em; border-bottom:#ccc solid 1px; border-right:#ccc solid 1px;}
+table#wallet-table td.bk-gray			{background:#f2f2f2;}
+table#wallet-table td.td-right-noborder	{border-right:1px solid #fff;}
+table#wallet-table td.td-left-noborder	{border-left:1px solid #fff;}
+table#wallet-table td.td-noborder		{border-bottom:none; border-right:#ccc solid 1px; padding:0 0.5em;}
+
+ul#order-nav				{margin:10px 0 20px 50px; clear:both;}
+ul#order-nav li				{margin-right:20px; padding-left:15px; line-height:2.0em; background:url("../../images/settlement-list_arrow.gif") no-repeat left center;}
+
+.statement			{width:100%; font-size:12px;}
+td.statementTD1		{font-size:12px; padding:6px; border-bottom:1px dotted #CCC;}
+td.statementTD0		{font-size:12px; padding:6px; border-bottom:1px dotted #CCC; border-right:1px solid #96BAE7;}
+th.statementHead	{font-size:12px; text-align:center; font-weight:bold; line-height:100%; border-bottom:1px solid #96BAE7; border-right:1px dotted #CCC;}
+th.statementHead0	{font-size:12px; font-weight:bold; line-height:100%; border-bottom:1px solid #96BAE7; border-right:1px solid #96BAE7;}
+th.statementHead2	{font-size:12px; font-weight:bold; line-height:100%; border-bottom:1px dotted #CCC; border-right:1px dotted;}
+
+table#fc2PointHistory1						{width:100%; border-collapse:collapse; border-top:#eee 1px solid; border-right:#eee 1px solid; border-left:#eee 1px solid;}
+table#fc2PointHistory2						{border-collapse:collapse; width:100%;}
+table#fc2PointHistory2 tr.evencell			{background:#eee;}
+table#fc2PointHistory1 td,
+table#fc2PointHistory2 td					{text-align:left; border-bottom:#eee 1px solid; padding:2px;}
+table#fc2PointHistory2 .BorderBottomBlue	{border-bottom:#96BAE7 1px solid;}
+
+
+
+/* _tmpl_edit_...（プロフィール編集画面）のファイル用 */
+table#edit-table	{width:100%; text-align:left; border-collapse:collapse; margin-bottom:1.0em; border-top:#ccc solid 1px; border-left:#ccc solid 1px;}
+table#edit-table td	{padding:0.5em; border-bottom:#ccc solid 1px; border-right:#ccc solid 1px;}
+table#edit-table td.bk-gray				{background:#f2f2f2;}
+table#edit-table td.td-right-noborder	{border-right:1px solid #fff;}
+table#edit-table td.td-left-noborder	{border-left:1px solid #fff;}
+table#edit-table td.td-noborder			{border-bottom:none; border-right:#ccc solid 1px; padding:0 0.5em;}
+ul#edit-list{margin:20px 0 0 45px;}
+
+
+/* _tmpl_add_....（サービス追加登録画面）のファイル用 */
+#service_body p.pagetop	{text-align:right; clear:both;}
+#service_body{overflow:hidden;}
+#service_body a{text-decoration:none; font-weight:bold; color:#0044CC;}
+#service_body div.HarfTone{opacity:0.60; filter:alpha(opacity=60); -ms-filter:alpha(opacity=60);}
+#service_body dl{
+	float:left;
+	width:268px;
+	min-height:68px;
+	_height:72px;
+	margin-top:5px;
+	padding-left:70px;
+}
+#service_body dt								{font-size:115%;}
+#service_body dd.service_button					{margin-right:1.0em; text-align:right; min-height:1em;}
+#service_body dl.service_cart dd.service_button	{margin-top:-0.05em; margin-left:0;}
+#service_body.for_staff dl						{height:6.0em;}
+.charge		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 193px -88px;}
+.charge_too	{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 174px -177px;}
+#service_body dl.service_test		{background:url(http://static.fc2.com/fc2com/img/fc2_icon_test35.png) no-repeat 25px 8px;}
+#service_body dl.service_blog		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 20px -291px;}
+#service_body dl.service_blogranking{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 20px -389px;}
+#service_body dl.service_bjfc2		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 19px -492px;}
+#service_body dl.service_video		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -495px -995px;}
+#service_body dl.service_livechat	{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -1038px -2300px;}
+#service_body dl.service_textad		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 21px -692px;}
+#service_body dl.service_mall		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 20px -794px;}
+#service_body dl.service_affiliate	{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 18px -895px;}
+#service_body dl.service_release	{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 21px -997px;}
+#service_body dl.service_web		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 20px -1087px}
+#service_body dl.service_rslite		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 25px -1192px}
+#service_body dl.service_server		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 23px -1294px;}
+#service_body dl.service_backup		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 21px -1396px;}
+#service_body dl.service_domain		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 23px -1494px;}
+#service_body dl.service_hp_mobile	{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 18px -1588px;}
+#service_body dl.service_piyo		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 22px -1694px;}
+#service_body dl.service_profile	{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 20px -1790px;}
+#service_body dl.service_icon		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 21px -1892px;}
+#service_body dl.service_cart		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 20px -1993px;}
+#service_body dl.service_payarticle	{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 25px -597px;}
+#service_body dl.service_analyzer	{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -491px 6px;}
+#service_body dl.service_form		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -495px -93px;}
+#service_body dl.service_bbs		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -491px -192px;}
+#service_body dl.service_counter	{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -494px -290px;}
+#service_body dl.service_vote		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -495px -394px;}
+#service_body dl.service_chat		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -495px -490px;}
+#service_body dl.service_clap		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -490px -594px;}
+#service_body dl.service_accessranking{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -497px -692px;}
+#service_body dl.service_link		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -495px -792px;}
+#service_body dl.service_spam		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -495px -1191px;}
+#service_body dl.service_bookmark	{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -493px -1390px;}
+#service_body dl.service_keyword	{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -495px -1294px;}
+#service_body dl.service_rss		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -495px -1493px;}
+#service_body dl.service_diary		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -492px -1594px;}
+#service_body dl.service_sns		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -495px -894px;}
+#service_body dl.service_wiki		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -495px -1094px;}
+#service_body dl.service_todofc2	{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat 20px -2300px;}
+#service_body dl.service_knowhow	{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -488px -2300px;}
+#service_body dl.service_novel		{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -490px -1695px;}
+#service_body dl.service_creator	{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -491px -1790px;}
+#service_body dl.service_translator	{background:url(http://static.fc2.com/fc2com/img/fc2_service_icon.png) no-repeat -497px -1895px;}
+
+#service_body dl.service_cart dd form							{display:inline;}
+/* for ie \*/
+*html #service_body dl.service_cart dd form input				{overflow:visible;}
+*:first-child+html #service_body dl.service_cart dd form input	{overflow:visible;}
+/**/
+
+
+/* _tpl_add_service_choice_transfer.html（旧FC2からFC2IDへの移行画面）専用----- */
+div#check{
+	width:420px;
+	height:auto;
+	border:1px solid #CCC;
+	margin-top:16px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:30px;
+}
+ul.choice-table{min-height:1px; margin-top:30px;}
+ul.choice-table:after{
+	content:".";
+	height:0;
+	clear:both;
+	display:block;
+	visibility:hidden;
+}
+/*\*/
+* html ul.choice-table{height:1px;
+/*\*/ /*/
+	height:auto; overflow:hidden;
+/**/
+}
+/**/
+ul.choice-table li{margin-right:10px; float:left;}
+p#agreement{
+	width:470px;
+	height:530px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	border:1px solid #CCC;
+	overflow:auto;
+}
+ul#agreement-button{width:200px; padding:0; margin:0; min-height:1px;}
+ul#agreement-button:after{
+	content:".";
+	height:0;
+	clear:both;
+	display:block;
+	visibility:hidden;
+}
+/*\*/
+* html ul#agreement-button{height:1px;
+/*\*/ /*/
+	height:auto; overflow:hidden;
+/**/
+}
+/**/
+ul#agreement-button li{width:100px; text-align:center; float:left;}
+
+/* remove_xxx.html（退会引止めページ）専用------------- */
+#content .unsubscribe {
+	padding:0 10px 10px;
+	line-height:1.5;
+	font-size:108%;
+}
+#content .unsubscribe .guide {
+	margin:0 0 15px;
+	padding:10px;
+	border:1px solid #EAEAEA;
+	background-color:#FAFAFA;
+	color:#5A5A5A;
+}
+#content .unsubscribe .guide h3 {
+	margin:0 0 5px;
+}
+#content .unsubscribe .guide p {
+}
+#content .unsubscribe .list {
+	margin:0 10px 15px;
+}
+#content .unsubscribe .list a{
+	text-decoration:underline;
+	color:#0000ff;
+}
+#content .unsubscribe .list h3 {
+	margin:0 0 5px;
+}
+#content .unsubscribe .list ul {
+	margin:0 5px 15px;
+}
+#content .unsubscribe .list ul li {
+	margin:0 0 5px 20px;
+	list-style-position:outside;
+	list-style-type:disc;
+	color:#666666;
+	font-size:93%;
+}
+#content .unsubscribe .list ul li span {
+	color:#FF0000;
+	font-size:108%;
+}
+#content .unsubscribe .goto_release {
+	margin:30px 0 0;
+}
+#content .unsubscribe .goto_release p {
+	margin:0 0 20px;
+}
+#content .unsubscribe .goto_release fieldset {
+	border:none;
+	text-align:center;
+}
+#content .unsubscribe .goto_release input {
+	margin:0 5px;
+	padding:2px 5px;
+	font-size:116%;
+}
+/* index.phpのtable---------------------------------------- */
+table#sevice_regist_table, table#sns_table, table#BlogMag_table, table#BlogMagArticle_table{
+	width:300px;
+	margin:0 0 1.0em 0;
+	border-top:1px #ccc solid;
+	border-left:1px #ccc solid;
+	border-collapse:collapse;
+}
+table#sevice_regist_table{width:360px;}
+table#sevice_regist_table th, table#sns_table th, table#BlogMag_table th, table#BlogMagArticle_table th{
+	padding:7px 2px 7px 4px;
+	background:url(http://id.fc2.com/test/img/img_my_start.png) repeat-y 0 22px;
+	/* background-color:#f2f2f2; */
+	border-bottom:1px #ccc solid;
+	border-right:1px #ccc solid;
+	font-weight:bold;
+	color:#555;
+}
+table#sevice_regist_table tr.even_line,
+table#sns_table tr.even_line,
+table#BlogMag_table tr.even_line,
+table#BlogMagArticle_table tr.even_line{background:#f6f6f6;}
+table#sevice_regist_table td, table#sns_table td, table#BlogMag_table td, table#BlogMagArticle_table td{
+	padding:7px 2px 7px 4px;
+	border-bottom:1px #ccc solid;
+	border-right:1px #ccc solid;
+	text-align:left;
+}
+table#sevice_regist_table a{text-decoration:none;}
+table#sevice_regist_table a:hover{text-decoration:underline; color:#ff0000;}
+table#sevice_regist_table tbody tr{cursor:move;}
+table#sevice_regist_table tr.ui-sortable-helper td{border:2px dotted #ff0000; background:#ffeeee;}
+table#sevice_regist_table td.centering{text-align:center;}
+
+/*-- index.phpのinfomationブログRSS_Disp For "Normal Mode"---- --*/
+#info{border:1px dotted #ccc; text-align:left;}
+#info .info_title{color:#333; margin:0 0 0 13px;}
+#info div#rss_convert ul.rss_fc2info{margin:6px;}
+#info div#rss_convert ul li.rss_fc2infolist{line-height:135%;}
+#info div#rss_convert p.rss_fc2info_day{color:#666;}
+
+
+/* ここから「マイページ」の指定-------------------------- */
+/*-- infomationブログのRSS_Disp For "My Start Page"---- --*/
+#fc2info #rss_convert .rss_fc2infolist{
+	padding:3px;
+	border-bottom:1px solid #DADADA;
+}
+#fc2info #rss_convert .rss_fc2infolist .rss_fc2info_day{
+	display:inline;
+	padding-right:5px;
+}
+
+/* JS-Enabled CSS For "My Start Page" */
+.widget-head a.remove{
+	float:right;
+	display:inline;
+	background:url(http://id.fc2.com/test/img/buttons.gif) no-repeat -24px 0;
+	width:14px;
+	height:14px;
+	margin:4px 4px 4px 0;
+	text-indent:-9999em;
+	outline:none;
+}
+.widget-head a.edit{
+	float:right;
+	display:inline;
+	background:url(http://id.fc2.com/test/img/buttons.gif) no-repeat;
+	width:24px;
+	height:14px;
+	text-indent:-9999em;
+	margin:8px 4px 8px 4px;
+	outline:none;
+}
+.widget-head a.collapse{
+	float:left;
+	display:inline;
+	background:url(http://id.fc2.com/test/img/buttons.gif) no-repeat -52px 0;
+	width:14px;
+	height:14px;
+	text-indent:-9999em;
+	margin:8px 0 8px 4px;
+	outline:none;
+}
+.widget-placeholder{border:1px dotted #A0A0A0;background-color:#EFEFEF;}
+#column1 .widget-placeholder,
+#column2 .widget-placeholder,
+#column3 .widget-placeholder{margin:10px;}
+
+.edit-box{
+	overflow:hidden;
+	background:#555 url(img/widget-content-bg.png) repeat-x;
+	margin-bottom:2px;
+	padding:10px 0;
+}
+.edit-box li.item{
+	overflow:hidden;
+	padding:5px;
+	color:#FFF;
+}
+.edit-box li.item span{
+	font-size:85%;
+}
+.edit-box ul.colors li{
+	width:20px;
+	height:20px;
+	border:1px solid #EEE;
+	float:left;
+	display:inline;
+	margin:0 5px 0 0;
+	cursor:pointer;
+}
+
+/* sidemenu for "My Start Page" */
+#sidemenu .bttn_start_set{
+	line-height:1.0em;
+	padding:6px 0;
+}
+
+/* sh_fc2footer_fix,footer_global
+-------------------------------------------------------------*/
+#sh_fc2footer_fix a:link,
+#sh_fc2footer_fix a:visited,
+#sh_fc2footer_fix a:focus,
+#sh_fc2footer_fix a:active,
+#footer_global a:link,
+#footer_global a:visited,
+#footer_global a:focus,
+#footer_global a:active {
+	background:none;
+	border:none;
+	text-decoration:none;
+	color:#0044CC;
+}
+
+#sh_fc2footer_fix a:hover,
+#footer_global a:hover {	
+	text-decoration: underline;
+	color: red;
+}
+
+
+.sh_banner{
+	margin: 0;
+	}
+/* Localized */
