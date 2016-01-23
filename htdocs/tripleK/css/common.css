@@ -188,7 +188,7 @@ hr {
 *************************************************/
 #wrapper {
 	width: 960px;
-	height: 1200px;
+	height: 1500px;
 	margin: 30px auto 0;
 }
 
@@ -203,7 +203,7 @@ hr {
 ***************************************/
 .leftColumn {
 	width: 600px;
-	height: 1000px;
+	height: 1500px;
 	margin: 0 30px auto 0;
 	float: left;
 }
@@ -256,7 +256,7 @@ hr {
 ***************************************/
 #info {
 	width: 600px;
-	height: 600px;
+	height: 1100px;
 	margin: 0 auto;
 }
 
@@ -327,7 +327,7 @@ hr {
 .newsDay {
 	width: 120px;
 	float: left;
-	text-indent: 30px;
+	text-indent: 20px;
 	font-size: 14px;
 	height: 40px;
 	margin-top: 20px;
@@ -381,7 +381,7 @@ hr {
 ***************************************/
 #banner {
 	width: 230px;
-	height: 530px;
+	height: 330px;
 	margin: 60px 20px 0;
 }
 
